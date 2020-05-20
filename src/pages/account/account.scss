@@ -1,0 +1,14 @@
+page-account {
+    .item{
+        padding-left: 0;
+    }
+
+    .item:not(.item-divider) .icon{
+        padding: 0 10px 0 15px;
+    }
+
+    .icon{
+        padding: 0 10px 0 10px;
+        font-size: 1.5em;
+    }
+}

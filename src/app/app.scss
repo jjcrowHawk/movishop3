@@ -14,3 +14,40 @@
 // To declare rules for a specific mode, create a child rule
 // for the .md, .ios, or .wp mode classes. The mode class is
 // automatically applied to the <body> element in the app.
+
+$input_bottom_border_color: #c8c7cc;
+$input_bottom_border_width: 0.55;
+
+.modal-warning{
+    .toast-wrapper {
+        background-color: color($colors, danger);
+    }
+}
+
+.validator-error{
+    margin-left: 3%;
+    margin-top: 2%;
+    margin-bottom: 3%;
+    color: color($colors, danger);
+    font-weight: 500;
+}
+
+.has-errors{
+    .item-inner{
+        border-bottom-color: color($colors, danger) !important;
+    }
+
+    .label{
+        color: color($colors, danger);
+    }
+}
+
+.no-errors{
+    .item-inner{
+        border-bottom-color: color($colors, secondary) !important;
+    }
+
+    .label{
+        color: color($colors, secondary);
+    }
+}

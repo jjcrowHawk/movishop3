@@ -1,0 +1,31 @@
+page-order-history {
+    .price-col{
+        
+        h1,h2,h3,h4,h5,p{
+            font-weight: bold;
+        }
+    }
+
+    .state-col{
+        font-weight: bold;
+
+        h1,h2,h3,h4,h5,p{
+            font-weight: bold;
+        }
+    }
+
+    .col{
+            padding: 0;
+        }
+    .row{
+        margin-top: 7%
+    }
+
+    .card .row:first-of-type{
+        margin-top:0%;
+    }
+
+    .card-content{
+        padding: 13px 10px 13px  10px !important;
+    }
+}

@@ -1,0 +1,42 @@
+page-modal-order-status {
+
+    .scroll-content div:not(.order_section_title){
+        padding-left: 5%;
+        margin-bottom: 3%;
+        margin-top: 2%;
+
+        .row > .col:first-child{
+            font-weight: 500;
+        }
+    }
+
+    .map_snapshot{
+        border: solid 0.1px gray;
+        padding-left: 0% !important;
+        margin-top: 0% !important;
+    }
+
+    .order_section_title{
+        background-color: rgb(247, 247, 247);
+        font-weight: bold;
+        text-transform: uppercase;
+        padding-top: 2%;
+        padding-bottom: 2%;
+        padding-left: 5%;
+        font-size: 1.2rem;
+        //border: solid 0.5px gray;
+    }
+
+    .order_detail_head{
+        font-weight: bold;
+        margin-right: 5%;
+    }
+
+    .item_row{
+        padding-top: 2%;
+        padding-bottom: 2%;
+        border-bottom: solid 0.5px gray;
+        margin-bottom: 2%;
+        margin-right: 5%;
+    }
+}

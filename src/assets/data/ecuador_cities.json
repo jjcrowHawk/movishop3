@@ -1,0 +1,1584 @@
+[
+    {
+                            "intCodigoCiudadInen": "2",
+                            "vchCodigoCiudadInen": "08",
+                            "vchNombreCiudadInen": "SANTA ISABEL",
+                            "intCodigoProvinciaInen": "1",
+                            "intCodigoHabilitado": "1"
+    },
+    {
+                            "intCodigoCiudadInen": "3",
+                            "vchCodigoCiudadInen": "04",
+                            "vchNombreCiudadInen": "NABON",
+                            "intCodigoProvinciaInen": "1",
+                            "intCodigoHabilitado": "1"
+    },
+    {
+                            "intCodigoCiudadInen": "4",
+                            "vchCodigoCiudadInen": "02",
+                            "vchNombreCiudadInen": "GIRON",
+                            "intCodigoProvinciaInen": "1",
+                            "intCodigoHabilitado": "1"
+    },
+    {
+                            "intCodigoCiudadInen": "5",
+                            "vchCodigoCiudadInen": "07",
+                            "vchNombreCiudadInen": "SAN FERNANDO",
+                            "intCodigoProvinciaInen": "1",
+                            "intCodigoHabilitado": "1"
+    },
+    {
+                            "intCodigoCiudadInen": "6",
+                            "vchCodigoCiudadInen": "06",
+                            "vchNombreCiudadInen": "PUCARA",
+                            "intCodigoProvinciaInen": "1",
+                            "intCodigoHabilitado": "1"
+    },
+    {
+                            "intCodigoCiudadInen": "7",
+                            "vchCodigoCiudadInen": "09",
+                            "vchNombreCiudadInen": "SIGSIG",
+                            "intCodigoProvinciaInen": "1",
+                            "intCodigoHabilitado": "1"
+    },
+    {
+                            "intCodigoCiudadInen": "8",
+                            "vchCodigoCiudadInen": "15",
+                            "vchNombreCiudadInen": "CAMILO PONCE ENRIQUEZ",
+                            "intCodigoProvinciaInen": "1",
+                            "intCodigoHabilitado": "1"
+    },
+    {
+                            "intCodigoCiudadInen": "9",
+                            "vchCodigoCiudadInen": "11",
+                            "vchNombreCiudadInen": "CHORDELEG",
+                            "intCodigoProvinciaInen": "1",
+                            "intCodigoHabilitado": "1"
+    },
+    {
+                            "intCodigoCiudadInen": "10",
+                            "vchCodigoCiudadInen": "03",
+                            "vchNombreCiudadInen": "GUALACEO",
+                            "intCodigoProvinciaInen": "1",
+                            "intCodigoHabilitado": "1"
+    },
+    {
+                            "intCodigoCiudadInen": "11",
+                            "vchCodigoCiudadInen": "01",
+                            "vchNombreCiudadInen": "CUENCA",
+                            "intCodigoProvinciaInen": "1",
+                            "intCodigoHabilitado": "1"
+    },
+    {
+                            "intCodigoCiudadInen": "12",
+                            "vchCodigoCiudadInen": "13",
+                            "vchNombreCiudadInen": "SEVILLA DE ORO",
+                            "intCodigoProvinciaInen": "1",
+                            "intCodigoHabilitado": "1"
+    },
+    {
+                            "intCodigoCiudadInen": "13",
+                            "vchCodigoCiudadInen": "12",
+                            "vchNombreCiudadInen": "EL PAN",
+                            "intCodigoProvinciaInen": "1",
+                            "intCodigoHabilitado": "1"
+    },
+    {
+                            "intCodigoCiudadInen": "14",
+                            "vchCodigoCiudadInen": "14",
+                            "vchNombreCiudadInen": "GUACHAPALA",
+                            "intCodigoProvinciaInen": "1",
+                            "intCodigoHabilitado": "1"
+    },
+    {
+                            "intCodigoCiudadInen": "15",
+                            "vchCodigoCiudadInen": "05",
+                            "vchNombreCiudadInen": "PAUTE",
+                            "intCodigoProvinciaInen": "1",
+                            "intCodigoHabilitado": "1"
+    },
+    {
+                            "intCodigoCiudadInen": "16",
+                            "vchCodigoCiudadInen": "02",
+                            "vchNombreCiudadInen": "CHILLANES",
+                            "intCodigoProvinciaInen": "2",
+                            "intCodigoHabilitado": "1"
+    },
+    {
+                            "intCodigoCiudadInen": "17",
+                            "vchCodigoCiudadInen": "05",
+                            "vchNombreCiudadInen": "SAN MIGUEL",
+                            "intCodigoProvinciaInen": "2",
+                            "intCodigoHabilitado": "1"
+    },
+    {
+                            "intCodigoCiudadInen": "18",
+                            "vchCodigoCiudadInen": "03",
+                            "vchNombreCiudadInen": "CHIMBO",
+                            "intCodigoProvinciaInen": "2",
+                            "intCodigoHabilitado": "1"
+    },
+    {
+                            "intCodigoCiudadInen": "19",
+                            "vchCodigoCiudadInen": "06",
+                            "vchNombreCiudadInen": "CALUMA",
+                            "intCodigoProvinciaInen": "2",
+                            "intCodigoHabilitado": "1"
+    },
+    {
+                            "intCodigoCiudadInen": "20",
+                            "vchCodigoCiudadInen": "01",
+                            "vchNombreCiudadInen": "GUARANDA",
+                            "intCodigoProvinciaInen": "2",
+                            "intCodigoHabilitado": "1"
+    },
+    {
+                            "intCodigoCiudadInen": "21",
+                            "vchCodigoCiudadInen": "04",
+                            "vchNombreCiudadInen": "ECHEANDIA",
+                            "intCodigoProvinciaInen": "2",
+                            "intCodigoHabilitado": "1"
+    },
+    {
+                            "intCodigoCiudadInen": "22",
+                            "vchCodigoCiudadInen": "07",
+                            "vchNombreCiudadInen": "LAS NAVES",
+                            "intCodigoProvinciaInen": "2",
+                            "intCodigoHabilitado": "1"
+    },
+    {
+                            "intCodigoCiudadInen": "23",
+                            "vchCodigoCiudadInen": "06",
+                            "vchNombreCiudadInen": "DELEG",
+                            "intCodigoProvinciaInen": "3",
+                            "intCodigoHabilitado": "1"
+    },
+    {
+                            "intCodigoCiudadInen": "24",
+                            "vchCodigoCiudadInen": "01",
+                            "vchNombreCiudadInen": "AZOGUES",
+                            "intCodigoProvinciaInen": "3",
+                            "intCodigoHabilitado": "1"
+    },
+    {
+                            "intCodigoCiudadInen": "25",
+                            "vchCodigoCiudadInen": "02",
+                            "vchNombreCiudadInen": "BIBLIAN",
+                            "intCodigoProvinciaInen": "3",
+                            "intCodigoHabilitado": "1"
+    },
+    {
+                            "intCodigoCiudadInen": "26",
+                            "vchCodigoCiudadInen": "03",
+                            "vchNombreCiudadInen": "CAÑAR",
+                            "intCodigoProvinciaInen": "3",
+                            "intCodigoHabilitado": "1"
+    },
+    {
+                            "intCodigoCiudadInen": "27",
+                            "vchCodigoCiudadInen": "05",
+                            "vchNombreCiudadInen": "EL TAMBO",
+                            "intCodigoProvinciaInen": "3",
+                            "intCodigoHabilitado": "1"
+    },
+    {
+                            "intCodigoCiudadInen": "28",
+                            "vchCodigoCiudadInen": "07",
+                            "vchNombreCiudadInen": "SUSCAL",
+                            "intCodigoProvinciaInen": "3",
+                            "intCodigoHabilitado": "1"
+    },
+    {
+                            "intCodigoCiudadInen": "29",
+                            "vchCodigoCiudadInen": "04",
+                            "vchNombreCiudadInen": "LA TRONCAL",
+                            "intCodigoProvinciaInen": "3",
+                            "intCodigoHabilitado": "1"
+    },
+    {
+                            "intCodigoCiudadInen": "30",
+                            "vchCodigoCiudadInen": "02",
+                            "vchNombreCiudadInen": "BOLIVAR",
+                            "intCodigoProvinciaInen": "4",
+                            "intCodigoHabilitado": "1"
+    },
+    {
+                            "intCodigoCiudadInen": "31",
+                            "vchCodigoCiudadInen": "04",
+                            "vchNombreCiudadInen": "MIRA",
+                            "intCodigoProvinciaInen": "4",
+                            "intCodigoHabilitado": "1"
+    },
+    {
+                            "intCodigoCiudadInen": "32",
+                            "vchCodigoCiudadInen": "05",
+                            "vchNombreCiudadInen": "MONTUFAR",
+                            "intCodigoProvinciaInen": "4",
+                            "intCodigoHabilitado": "1"
+    },
+    {
+                            "intCodigoCiudadInen": "33",
+                            "vchCodigoCiudadInen": "06",
+                            "vchNombreCiudadInen": "SAN PEDRO DE HUACA",
+                            "intCodigoProvinciaInen": "4",
+                            "intCodigoHabilitado": "1"
+    },
+    {
+                            "intCodigoCiudadInen": "34",
+                            "vchCodigoCiudadInen": "03",
+                            "vchNombreCiudadInen": "ESPEJO",
+                            "intCodigoProvinciaInen": "4",
+                            "intCodigoHabilitado": "1"
+    },
+    {
+                            "intCodigoCiudadInen": "35",
+                            "vchCodigoCiudadInen": "01",
+                            "vchNombreCiudadInen": "TULCAN",
+                            "intCodigoProvinciaInen": "4",
+                            "intCodigoHabilitado": "1"
+    },
+    {
+                            "intCodigoCiudadInen": "36",
+                            "vchCodigoCiudadInen": "03",
+                            "vchNombreCiudadInen": "PANGUA",
+                            "intCodigoProvinciaInen": "5",
+                            "intCodigoHabilitado": "1"
+    },
+    {
+                            "intCodigoCiudadInen": "37",
+                            "vchCodigoCiudadInen": "05",
+                            "vchNombreCiudadInen": "SALCEDO",
+                            "intCodigoProvinciaInen": "5",
+                            "intCodigoHabilitado": "1"
+    },
+    {
+                            "intCodigoCiudadInen": "38",
+                            "vchCodigoCiudadInen": "04",
+                            "vchNombreCiudadInen": "PUJILI",
+                            "intCodigoProvinciaInen": "5",
+                            "intCodigoHabilitado": "1"
+    },
+    {
+                            "intCodigoCiudadInen": "39",
+                            "vchCodigoCiudadInen": "01",
+                            "vchNombreCiudadInen": "LATACUNGA",
+                            "intCodigoProvinciaInen": "5",
+                            "intCodigoHabilitado": "1"
+    },
+    {
+                            "intCodigoCiudadInen": "40",
+                            "vchCodigoCiudadInen": "06",
+                            "vchNombreCiudadInen": "SAQUISILI",
+                            "intCodigoProvinciaInen": "5",
+                            "intCodigoHabilitado": "1"
+    },
+    {
+                            "intCodigoCiudadInen": "41",
+                            "vchCodigoCiudadInen": "02",
+                            "vchNombreCiudadInen": "LA MANA",
+                            "intCodigoProvinciaInen": "5",
+                            "intCodigoHabilitado": "1"
+    },
+    {
+                            "intCodigoCiudadInen": "42",
+                            "vchCodigoCiudadInen": "07",
+                            "vchNombreCiudadInen": "SIGCHOS",
+                            "intCodigoProvinciaInen": "5",
+                            "intCodigoHabilitado": "1"
+    },
+    {
+                            "intCodigoCiudadInen": "43",
+                            "vchCodigoCiudadInen": "05",
+                            "vchNombreCiudadInen": "CHUNCHI",
+                            "intCodigoProvinciaInen": "6",
+                            "intCodigoHabilitado": "1"
+    },
+    {
+                            "intCodigoCiudadInen": "44",
+                            "vchCodigoCiudadInen": "10",
+                            "vchNombreCiudadInen": "CUMANDA",
+                            "intCodigoProvinciaInen": "6",
+                            "intCodigoHabilitado": "1"
+    },
+    {
+                            "intCodigoCiudadInen": "45",
+                            "vchCodigoCiudadInen": "02",
+                            "vchNombreCiudadInen": "ALAUSI",
+                            "intCodigoProvinciaInen": "6",
+                            "intCodigoHabilitado": "1"
+    },
+    {
+                            "intCodigoCiudadInen": "46",
+                            "vchCodigoCiudadInen": "08",
+                            "vchNombreCiudadInen": "PALLATANGA",
+                            "intCodigoProvinciaInen": "6",
+                            "intCodigoHabilitado": "1"
+    },
+    {
+                            "intCodigoCiudadInen": "47",
+                            "vchCodigoCiudadInen": "06",
+                            "vchNombreCiudadInen": "GUAMOTE",
+                            "intCodigoProvinciaInen": "6",
+                            "intCodigoHabilitado": "1"
+    },
+    {
+                            "intCodigoCiudadInen": "48",
+                            "vchCodigoCiudadInen": "04",
+                            "vchNombreCiudadInen": "CHAMBO",
+                            "intCodigoProvinciaInen": "6",
+                            "intCodigoHabilitado": "1"
+    },
+    {
+                            "intCodigoCiudadInen": "49",
+                            "vchCodigoCiudadInen": "03",
+                            "vchNombreCiudadInen": "COLTA",
+                            "intCodigoProvinciaInen": "6",
+                            "intCodigoHabilitado": "1"
+    },
+    {
+                            "intCodigoCiudadInen": "50",
+                            "vchCodigoCiudadInen": "01",
+                            "vchNombreCiudadInen": "RIOBAMBA",
+                            "intCodigoProvinciaInen": "6",
+                            "intCodigoHabilitado": "1"
+    },
+    {
+                            "intCodigoCiudadInen": "51",
+                            "vchCodigoCiudadInen": "07",
+                            "vchNombreCiudadInen": "GUANO",
+                            "intCodigoProvinciaInen": "6",
+                            "intCodigoHabilitado": "1"
+    },
+    {
+                            "intCodigoCiudadInen": "52",
+                            "vchCodigoCiudadInen": "09",
+                            "vchNombreCiudadInen": "PENIPE",
+                            "intCodigoProvinciaInen": "6",
+                            "intCodigoHabilitado": "1"
+    },
+    {
+                            "intCodigoCiudadInen": "53",
+                            "vchCodigoCiudadInen": "08",
+                            "vchNombreCiudadInen": "MARCABELI",
+                            "intCodigoProvinciaInen": "7",
+                            "intCodigoHabilitado": "1"
+    },
+    {
+                            "intCodigoCiudadInen": "54",
+                            "vchCodigoCiudadInen": "04",
+                            "vchNombreCiudadInen": "BALSAS",
+                            "intCodigoProvinciaInen": "7",
+                            "intCodigoHabilitado": "1"
+    },
+    {
+                            "intCodigoCiudadInen": "55",
+                            "vchCodigoCiudadInen": "14",
+                            "vchNombreCiudadInen": "LAS LAJAS",
+                            "intCodigoProvinciaInen": "7",
+                            "intCodigoHabilitado": "1"
+    },
+    {
+                            "intCodigoCiudadInen": "56",
+                            "vchCodigoCiudadInen": "11",
+                            "vchNombreCiudadInen": "PORTOVELO",
+                            "intCodigoProvinciaInen": "7",
+                            "intCodigoHabilitado": "1"
+    },
+    {
+                            "intCodigoCiudadInen": "57",
+                            "vchCodigoCiudadInen": "13",
+                            "vchNombreCiudadInen": "ZARUMA",
+                            "intCodigoProvinciaInen": "7",
+                            "intCodigoHabilitado": "1"
+    },
+    {
+                            "intCodigoCiudadInen": "58",
+                            "vchCodigoCiudadInen": "10",
+                            "vchNombreCiudadInen": "PIÑAS",
+                            "intCodigoProvinciaInen": "7",
+                            "intCodigoHabilitado": "1"
+    },
+    {
+                            "intCodigoCiudadInen": "59",
+                            "vchCodigoCiudadInen": "03",
+                            "vchNombreCiudadInen": "ATAHUALPA",
+                            "intCodigoProvinciaInen": "7",
+                            "intCodigoHabilitado": "1"
+    },
+    {
+                            "intCodigoCiudadInen": "60",
+                            "vchCodigoCiudadInen": "07",
+                            "vchNombreCiudadInen": "HUAQUILLAS",
+                            "intCodigoProvinciaInen": "7",
+                            "intCodigoHabilitado": "1"
+    },
+    {
+                            "intCodigoCiudadInen": "61",
+                            "vchCodigoCiudadInen": "02",
+                            "vchNombreCiudadInen": "ARENILLAS",
+                            "intCodigoProvinciaInen": "7",
+                            "intCodigoHabilitado": "1"
+    },
+    {
+                            "intCodigoCiudadInen": "62",
+                            "vchCodigoCiudadInen": "12",
+                            "vchNombreCiudadInen": "SANTA ROSA",
+                            "intCodigoProvinciaInen": "7",
+                            "intCodigoHabilitado": "1"
+    },
+    {
+                            "intCodigoCiudadInen": "63",
+                            "vchCodigoCiudadInen": "05",
+                            "vchNombreCiudadInen": "CHILLA",
+                            "intCodigoProvinciaInen": "7",
+                            "intCodigoHabilitado": "1"
+    },
+    {
+                            "intCodigoCiudadInen": "64",
+                            "vchCodigoCiudadInen": "09",
+                            "vchNombreCiudadInen": "PASAJE",
+                            "intCodigoProvinciaInen": "7",
+                            "intCodigoHabilitado": "1"
+    },
+    {
+                            "intCodigoCiudadInen": "65",
+                            "vchCodigoCiudadInen": "01",
+                            "vchNombreCiudadInen": "MACHALA",
+                            "intCodigoProvinciaInen": "7",
+                            "intCodigoHabilitado": "1"
+    },
+    {
+                            "intCodigoCiudadInen": "66",
+                            "vchCodigoCiudadInen": "06",
+                            "vchNombreCiudadInen": "EL GUABO",
+                            "intCodigoProvinciaInen": "7",
+                            "intCodigoHabilitado": "1"
+    },
+    {
+                            "intCodigoCiudadInen": "67",
+                            "vchCodigoCiudadInen": "04",
+                            "vchNombreCiudadInen": "QUININDE",
+                            "intCodigoProvinciaInen": "8",
+                            "intCodigoHabilitado": "1"
+    },
+    {
+                            "intCodigoCiudadInen": "68",
+                            "vchCodigoCiudadInen": "03",
+                            "vchNombreCiudadInen": "MUISNE",
+                            "intCodigoProvinciaInen": "8",
+                            "intCodigoHabilitado": "1"
+    },
+    {
+                            "intCodigoCiudadInen": "69",
+                            "vchCodigoCiudadInen": "06",
+                            "vchNombreCiudadInen": "ATACAMES",
+                            "intCodigoProvinciaInen": "8",
+                            "intCodigoHabilitado": "1"
+    },
+    {
+                            "intCodigoCiudadInen": "70",
+                            "vchCodigoCiudadInen": "01",
+                            "vchNombreCiudadInen": "ESMERALDAS",
+                            "intCodigoProvinciaInen": "8",
+                            "intCodigoHabilitado": "1"
+    },
+    {
+                            "intCodigoCiudadInen": "71",
+                            "vchCodigoCiudadInen": "07",
+                            "vchNombreCiudadInen": "RIOVERDE",
+                            "intCodigoProvinciaInen": "8",
+                            "intCodigoHabilitado": "1"
+    },
+    {
+                            "intCodigoCiudadInen": "72",
+                            "vchCodigoCiudadInen": "02",
+                            "vchNombreCiudadInen": "ELOY ALFARO",
+                            "intCodigoProvinciaInen": "8",
+                            "intCodigoHabilitado": "1"
+    },
+    {
+                            "intCodigoCiudadInen": "73",
+                            "vchCodigoCiudadInen": "05",
+                            "vchNombreCiudadInen": "SAN LORENZO",
+                            "intCodigoProvinciaInen": "8",
+                            "intCodigoHabilitado": "1"
+    },
+    {
+                            "intCodigoCiudadInen": "74",
+                            "vchCodigoCiudadInen": "01",
+                            "vchNombreCiudadInen": "GUAYAQUIL",
+                            "intCodigoProvinciaInen": "9",
+                            "intCodigoHabilitado": "1"
+    },
+    {
+                            "intCodigoCiudadInen": "75",
+                            "vchCodigoCiudadInen": "02",
+                            "vchNombreCiudadInen": "ALFREDO BAQUERIZO MORENO (JUJAN)",
+                            "intCodigoProvinciaInen": "9",
+                            "intCodigoHabilitado": "1"
+    },
+    {
+                            "intCodigoCiudadInen": "76",
+                            "vchCodigoCiudadInen": "03",
+                            "vchNombreCiudadInen": "BALAO",
+                            "intCodigoProvinciaInen": "9",
+                            "intCodigoHabilitado": "1"
+    },
+    {
+                            "intCodigoCiudadInen": "77",
+                            "vchCodigoCiudadInen": "04",
+                            "vchNombreCiudadInen": "BALZAR",
+                            "intCodigoProvinciaInen": "9",
+                            "intCodigoHabilitado": "1"
+    },
+    {
+                            "intCodigoCiudadInen": "78",
+                            "vchCodigoCiudadInen": "05",
+                            "vchNombreCiudadInen": "COLIMES",
+                            "intCodigoProvinciaInen": "9",
+                            "intCodigoHabilitado": "1"
+    },
+    {
+                            "intCodigoCiudadInen": "79",
+                            "vchCodigoCiudadInen": "06",
+                            "vchNombreCiudadInen": "DAULE",
+                            "intCodigoProvinciaInen": "9",
+                            "intCodigoHabilitado": "1"
+    },
+    {
+                            "intCodigoCiudadInen": "80",
+                            "vchCodigoCiudadInen": "07",
+                            "vchNombreCiudadInen": "DURAN",
+                            "intCodigoProvinciaInen": "9",
+                            "intCodigoHabilitado": "1"
+    },
+    {
+                            "intCodigoCiudadInen": "81",
+                            "vchCodigoCiudadInen": "08",
+                            "vchNombreCiudadInen": "EL EMPALME",
+                            "intCodigoProvinciaInen": "9",
+                            "intCodigoHabilitado": "1"
+    },
+    {
+                            "intCodigoCiudadInen": "82",
+                            "vchCodigoCiudadInen": "09",
+                            "vchNombreCiudadInen": "EL TRIUNFO",
+                            "intCodigoProvinciaInen": "9",
+                            "intCodigoHabilitado": "1"
+    },
+    {
+                            "intCodigoCiudadInen": "83",
+                            "vchCodigoCiudadInen": "10",
+                            "vchNombreCiudadInen": "MILAGRO",
+                            "intCodigoProvinciaInen": "9",
+                            "intCodigoHabilitado": "1"
+    },
+    {
+                            "intCodigoCiudadInen": "84",
+                            "vchCodigoCiudadInen": "11",
+                            "vchNombreCiudadInen": "NARANJAL",
+                            "intCodigoProvinciaInen": "9",
+                            "intCodigoHabilitado": "1"
+    },
+    {
+                            "intCodigoCiudadInen": "85",
+                            "vchCodigoCiudadInen": "12",
+                            "vchNombreCiudadInen": "NARANJITO",
+                            "intCodigoProvinciaInen": "9",
+                            "intCodigoHabilitado": "1"
+    },
+    {
+                            "intCodigoCiudadInen": "86",
+                            "vchCodigoCiudadInen": "13",
+                            "vchNombreCiudadInen": "PALESTINA",
+                            "intCodigoProvinciaInen": "9",
+                            "intCodigoHabilitado": "1"
+    },
+    {
+                            "intCodigoCiudadInen": "87",
+                            "vchCodigoCiudadInen": "14",
+                            "vchNombreCiudadInen": "PEDRO CARBO",
+                            "intCodigoProvinciaInen": "9",
+                            "intCodigoHabilitado": "1"
+    },
+    {
+                            "intCodigoCiudadInen": "88",
+                            "vchCodigoCiudadInen": "16",
+                            "vchNombreCiudadInen": "SAMBORONDON",
+                            "intCodigoProvinciaInen": "9",
+                            "intCodigoHabilitado": "1"
+    },
+    {
+                            "intCodigoCiudadInen": "89",
+                            "vchCodigoCiudadInen": "18",
+                            "vchNombreCiudadInen": "SANTA LUCIA",
+                            "intCodigoProvinciaInen": "9",
+                            "intCodigoHabilitado": "1"
+    },
+    {
+                            "intCodigoCiudadInen": "90",
+                            "vchCodigoCiudadInen": "19",
+                            "vchNombreCiudadInen": "URBINA JADO",
+                            "intCodigoProvinciaInen": "9",
+                            "intCodigoHabilitado": "1"
+    },
+    {
+                            "intCodigoCiudadInen": "91",
+                            "vchCodigoCiudadInen": "20",
+                            "vchNombreCiudadInen": "YAGUACHI",
+                            "intCodigoProvinciaInen": "9",
+                            "intCodigoHabilitado": "1"
+    },
+    {
+                            "intCodigoCiudadInen": "92",
+                            "vchCodigoCiudadInen": "21",
+                            "vchNombreCiudadInen": "PLAYAS",
+                            "intCodigoProvinciaInen": "9",
+                            "intCodigoHabilitado": "1"
+    },
+    {
+                            "intCodigoCiudadInen": "93",
+                            "vchCodigoCiudadInen": "22",
+                            "vchNombreCiudadInen": "SIMON BOLIVAR",
+                            "intCodigoProvinciaInen": "9",
+                            "intCodigoHabilitado": "1"
+    },
+    {
+                            "intCodigoCiudadInen": "94",
+                            "vchCodigoCiudadInen": "23",
+                            "vchNombreCiudadInen": "CORONEL MARCELINO MARIDUEÑA",
+                            "intCodigoProvinciaInen": "9",
+                            "intCodigoHabilitado": "1"
+    },
+    {
+                            "intCodigoCiudadInen": "95",
+                            "vchCodigoCiudadInen": "24",
+                            "vchNombreCiudadInen": "LOMAS DE SARGENTILLO",
+                            "intCodigoProvinciaInen": "9",
+                            "intCodigoHabilitado": "1"
+    },
+    {
+                            "intCodigoCiudadInen": "96",
+                            "vchCodigoCiudadInen": "25",
+                            "vchNombreCiudadInen": "NOBOL",
+                            "intCodigoProvinciaInen": "9",
+                            "intCodigoHabilitado": "1"
+    },
+    {
+                            "intCodigoCiudadInen": "97",
+                            "vchCodigoCiudadInen": "27",
+                            "vchNombreCiudadInen": "GENERAL  ANTONIO ELIZALDE",
+                            "intCodigoProvinciaInen": "9",
+                            "intCodigoHabilitado": "1"
+    },
+    {
+                            "intCodigoCiudadInen": "98",
+                            "vchCodigoCiudadInen": "28",
+                            "vchNombreCiudadInen": "ISIDRO AYORA",
+                            "intCodigoProvinciaInen": "9",
+                            "intCodigoHabilitado": "1"
+    },
+    {
+                            "intCodigoCiudadInen": "99",
+                            "vchCodigoCiudadInen": "04",
+                            "vchNombreCiudadInen": "OTAVALO",
+                            "intCodigoProvinciaInen": "10",
+                            "intCodigoHabilitado": "1"
+    },
+    {
+                            "intCodigoCiudadInen": "100",
+                            "vchCodigoCiudadInen": "03",
+                            "vchNombreCiudadInen": "COTACACHI",
+                            "intCodigoProvinciaInen": "10",
+                            "intCodigoHabilitado": "1"
+    },
+    {
+                            "intCodigoCiudadInen": "101",
+                            "vchCodigoCiudadInen": "02",
+                            "vchNombreCiudadInen": "ANTONIO ANTE",
+                            "intCodigoProvinciaInen": "10",
+                            "intCodigoHabilitado": "1"
+    },
+    {
+                            "intCodigoCiudadInen": "102",
+                            "vchCodigoCiudadInen": "05",
+                            "vchNombreCiudadInen": "PIMAMPIRO",
+                            "intCodigoProvinciaInen": "10",
+                            "intCodigoHabilitado": "1"
+    },
+    {
+                            "intCodigoCiudadInen": "103",
+                            "vchCodigoCiudadInen": "06",
+                            "vchNombreCiudadInen": "SAN MIGUEL DE URCUQUI",
+                            "intCodigoProvinciaInen": "10",
+                            "intCodigoHabilitado": "1"
+    },
+    {
+                            "intCodigoCiudadInen": "104",
+                            "vchCodigoCiudadInen": "01",
+                            "vchNombreCiudadInen": "IBARRA",
+                            "intCodigoProvinciaInen": "10",
+                            "intCodigoHabilitado": "1"
+    },
+    {
+                            "intCodigoCiudadInen": "105",
+                            "vchCodigoCiudadInen": "06",
+                            "vchNombreCiudadInen": "ESPINDOLA",
+                            "intCodigoProvinciaInen": "11",
+                            "intCodigoHabilitado": "1"
+    },
+    {
+                            "intCodigoCiudadInen": "106",
+                            "vchCodigoCiudadInen": "15",
+                            "vchNombreCiudadInen": "QUILANGA",
+                            "intCodigoProvinciaInen": "11",
+                            "intCodigoHabilitado": "1"
+    },
+    {
+                            "intCodigoCiudadInen": "107",
+                            "vchCodigoCiudadInen": "13",
+                            "vchNombreCiudadInen": "ZAPOTILLO",
+                            "intCodigoProvinciaInen": "11",
+                            "intCodigoHabilitado": "1"
+    },
+    {
+                            "intCodigoCiudadInen": "108",
+                            "vchCodigoCiudadInen": "08",
+                            "vchNombreCiudadInen": "MACARA",
+                            "intCodigoProvinciaInen": "11",
+                            "intCodigoHabilitado": "1"
+    },
+    {
+                            "intCodigoCiudadInen": "109",
+                            "vchCodigoCiudadInen": "07",
+                            "vchNombreCiudadInen": "GONZANAMA",
+                            "intCodigoProvinciaInen": "11",
+                            "intCodigoHabilitado": "1"
+    },
+    {
+                            "intCodigoCiudadInen": "110",
+                            "vchCodigoCiudadInen": "02",
+                            "vchNombreCiudadInen": "CALVAS",
+                            "intCodigoProvinciaInen": "11",
+                            "intCodigoHabilitado": "1"
+    },
+    {
+                            "intCodigoCiudadInen": "111",
+                            "vchCodigoCiudadInen": "12",
+                            "vchNombreCiudadInen": "SOZORANGA",
+                            "intCodigoProvinciaInen": "11",
+                            "intCodigoHabilitado": "1"
+    },
+    {
+                            "intCodigoCiudadInen": "112",
+                            "vchCodigoCiudadInen": "14",
+                            "vchNombreCiudadInen": "PINDAL",
+                            "intCodigoProvinciaInen": "11",
+                            "intCodigoHabilitado": "1"
+    },
+    {
+                            "intCodigoCiudadInen": "113",
+                            "vchCodigoCiudadInen": "04",
+                            "vchNombreCiudadInen": "CELICA",
+                            "intCodigoProvinciaInen": "11",
+                            "intCodigoHabilitado": "1"
+    },
+    {
+                            "intCodigoCiudadInen": "114",
+                            "vchCodigoCiudadInen": "09",
+                            "vchNombreCiudadInen": "PALTAS",
+                            "intCodigoProvinciaInen": "11",
+                            "intCodigoHabilitado": "1"
+    },
+    {
+                            "intCodigoCiudadInen": "115",
+                            "vchCodigoCiudadInen": "16",
+                            "vchNombreCiudadInen": "OLMEDO",
+                            "intCodigoProvinciaInen": "11",
+                            "intCodigoHabilitado": "1"
+    },
+    {
+                            "intCodigoCiudadInen": "116",
+                            "vchCodigoCiudadInen": "03",
+                            "vchNombreCiudadInen": "CATAMAYO",
+                            "intCodigoProvinciaInen": "11",
+                            "intCodigoHabilitado": "1"
+    },
+    {
+                            "intCodigoCiudadInen": "117",
+                            "vchCodigoCiudadInen": "10",
+                            "vchNombreCiudadInen": "PUYANGO",
+                            "intCodigoProvinciaInen": "11",
+                            "intCodigoHabilitado": "1"
+    },
+    {
+                            "intCodigoCiudadInen": "118",
+                            "vchCodigoCiudadInen": "01",
+                            "vchNombreCiudadInen": "LOJA",
+                            "intCodigoProvinciaInen": "11",
+                            "intCodigoHabilitado": "1"
+    },
+    {
+                            "intCodigoCiudadInen": "119",
+                            "vchCodigoCiudadInen": "05",
+                            "vchNombreCiudadInen": "CHAGUARPAMBA",
+                            "intCodigoProvinciaInen": "11",
+                            "intCodigoHabilitado": "1"
+    },
+    {
+                            "intCodigoCiudadInen": "120",
+                            "vchCodigoCiudadInen": "11",
+                            "vchNombreCiudadInen": "SARAGURO",
+                            "intCodigoProvinciaInen": "11",
+                            "intCodigoHabilitado": "1"
+    },
+    {
+                            "intCodigoCiudadInen": "121",
+                            "vchCodigoCiudadInen": "01",
+                            "vchNombreCiudadInen": "BABAHOYO",
+                            "intCodigoProvinciaInen": "12",
+                            "intCodigoHabilitado": "1"
+    },
+    {
+                            "intCodigoCiudadInen": "122",
+                            "vchCodigoCiudadInen": "02",
+                            "vchNombreCiudadInen": "BABA",
+                            "intCodigoProvinciaInen": "12",
+                            "intCodigoHabilitado": "1"
+    },
+    {
+                            "intCodigoCiudadInen": "123",
+                            "vchCodigoCiudadInen": "03",
+                            "vchNombreCiudadInen": "MONTALVO",
+                            "intCodigoProvinciaInen": "12",
+                            "intCodigoHabilitado": "1"
+    },
+    {
+                            "intCodigoCiudadInen": "124",
+                            "vchCodigoCiudadInen": "04",
+                            "vchNombreCiudadInen": "PUEBLOVIEJO",
+                            "intCodigoProvinciaInen": "12",
+                            "intCodigoHabilitado": "1"
+    },
+    {
+                            "intCodigoCiudadInen": "125",
+                            "vchCodigoCiudadInen": "05",
+                            "vchNombreCiudadInen": "QUEVEDO",
+                            "intCodigoProvinciaInen": "12",
+                            "intCodigoHabilitado": "1"
+    },
+    {
+                            "intCodigoCiudadInen": "126",
+                            "vchCodigoCiudadInen": "06",
+                            "vchNombreCiudadInen": "URDANETA",
+                            "intCodigoProvinciaInen": "12",
+                            "intCodigoHabilitado": "1"
+    },
+    {
+                            "intCodigoCiudadInen": "127",
+                            "vchCodigoCiudadInen": "07",
+                            "vchNombreCiudadInen": "VENTANAS",
+                            "intCodigoProvinciaInen": "12",
+                            "intCodigoHabilitado": "1"
+    },
+    {
+                            "intCodigoCiudadInen": "128",
+                            "vchCodigoCiudadInen": "08",
+                            "vchNombreCiudadInen": "VINCES",
+                            "intCodigoProvinciaInen": "12",
+                            "intCodigoHabilitado": "1"
+    },
+    {
+                            "intCodigoCiudadInen": "129",
+                            "vchCodigoCiudadInen": "09",
+                            "vchNombreCiudadInen": "PALENQUE",
+                            "intCodigoProvinciaInen": "12",
+                            "intCodigoHabilitado": "1"
+    },
+    {
+                            "intCodigoCiudadInen": "130",
+                            "vchCodigoCiudadInen": "10",
+                            "vchNombreCiudadInen": "BUENA FE",
+                            "intCodigoProvinciaInen": "12",
+                            "intCodigoHabilitado": "1"
+    },
+    {
+                            "intCodigoCiudadInen": "131",
+                            "vchCodigoCiudadInen": "11",
+                            "vchNombreCiudadInen": "VALENCIA",
+                            "intCodigoProvinciaInen": "12",
+                            "intCodigoHabilitado": "1"
+    },
+    {
+                            "intCodigoCiudadInen": "132",
+                            "vchCodigoCiudadInen": "12",
+                            "vchNombreCiudadInen": "MOCACHE",
+                            "intCodigoProvinciaInen": "12",
+                            "intCodigoHabilitado": "1"
+    },
+    {
+                            "intCodigoCiudadInen": "133",
+                            "vchCodigoCiudadInen": "13",
+                            "vchNombreCiudadInen": "QUINSALOMA",
+                            "intCodigoProvinciaInen": "12",
+                            "intCodigoHabilitado": "1"
+    },
+    {
+                            "intCodigoCiudadInen": "134",
+                            "vchCodigoCiudadInen": "19",
+                            "vchNombreCiudadInen": "PUERTO LOPEZ",
+                            "intCodigoProvinciaInen": "13",
+                            "intCodigoHabilitado": "1"
+    },
+    {
+                            "intCodigoCiudadInen": "135",
+                            "vchCodigoCiudadInen": "10",
+                            "vchNombreCiudadInen": "PAJAN",
+                            "intCodigoProvinciaInen": "13",
+                            "intCodigoHabilitado": "1"
+    },
+    {
+                            "intCodigoCiudadInen": "136",
+                            "vchCodigoCiudadInen": "18",
+                            "vchNombreCiudadInen": "OLMEDO",
+                            "intCodigoProvinciaInen": "13",
+                            "intCodigoHabilitado": "1"
+    },
+    {
+                            "intCodigoCiudadInen": "137",
+                            "vchCodigoCiudadInen": "16",
+                            "vchNombreCiudadInen": "24 DE MAYO",
+                            "intCodigoProvinciaInen": "13",
+                            "intCodigoHabilitado": "1"
+    },
+    {
+                            "intCodigoCiudadInen": "138",
+                            "vchCodigoCiudadInen": "06",
+                            "vchNombreCiudadInen": "JIPIJAPA",
+                            "intCodigoProvinciaInen": "13",
+                            "intCodigoHabilitado": "1"
+    },
+    {
+                            "intCodigoCiudadInen": "139",
+                            "vchCodigoCiudadInen": "13",
+                            "vchNombreCiudadInen": "SANTA ANA",
+                            "intCodigoProvinciaInen": "13",
+                            "intCodigoHabilitado": "1"
+    },
+    {
+                            "intCodigoCiudadInen": "140",
+                            "vchCodigoCiudadInen": "09",
+                            "vchNombreCiudadInen": "MONTECRISTI",
+                            "intCodigoProvinciaInen": "13",
+                            "intCodigoHabilitado": "1"
+    },
+    {
+                            "intCodigoCiudadInen": "141",
+                            "vchCodigoCiudadInen": "08",
+                            "vchNombreCiudadInen": "MANTA",
+                            "intCodigoProvinciaInen": "13",
+                            "intCodigoHabilitado": "1"
+    },
+    {
+                            "intCodigoCiudadInen": "142",
+                            "vchCodigoCiudadInen": "21",
+                            "vchNombreCiudadInen": "JARAMIJO",
+                            "intCodigoProvinciaInen": "13",
+                            "intCodigoHabilitado": "1"
+    },
+    {
+                            "intCodigoCiudadInen": "143",
+                            "vchCodigoCiudadInen": "01",
+                            "vchNombreCiudadInen": "PORTOVIEJO",
+                            "intCodigoProvinciaInen": "13",
+                            "intCodigoHabilitado": "1"
+    },
+    {
+                            "intCodigoCiudadInen": "144",
+                            "vchCodigoCiudadInen": "07",
+                            "vchNombreCiudadInen": "JUNIN",
+                            "intCodigoProvinciaInen": "13",
+                            "intCodigoHabilitado": "1"
+    },
+    {
+                            "intCodigoCiudadInen": "145",
+                            "vchCodigoCiudadInen": "12",
+                            "vchNombreCiudadInen": "ROCAFUERTE",
+                            "intCodigoProvinciaInen": "13",
+                            "intCodigoHabilitado": "1"
+    },
+    {
+                            "intCodigoCiudadInen": "146",
+                            "vchCodigoCiudadInen": "02",
+                            "vchNombreCiudadInen": "BOLIVAR",
+                            "intCodigoProvinciaInen": "13",
+                            "intCodigoHabilitado": "1"
+    },
+    {
+                            "intCodigoCiudadInen": "147",
+                            "vchCodigoCiudadInen": "11",
+                            "vchNombreCiudadInen": "PICHINCHA",
+                            "intCodigoProvinciaInen": "13",
+                            "intCodigoHabilitado": "1"
+    },
+    {
+                            "intCodigoCiudadInen": "148",
+                            "vchCodigoCiudadInen": "15",
+                            "vchNombreCiudadInen": "TOSAGUA",
+                            "intCodigoProvinciaInen": "13",
+                            "intCodigoHabilitado": "1"
+    },
+    {
+                            "intCodigoCiudadInen": "149",
+                            "vchCodigoCiudadInen": "14",
+                            "vchNombreCiudadInen": "SUCRE",
+                            "intCodigoProvinciaInen": "13",
+                            "intCodigoHabilitado": "1"
+    },
+    {
+                            "intCodigoCiudadInen": "150",
+                            "vchCodigoCiudadInen": "03",
+                            "vchNombreCiudadInen": "CHONE",
+                            "intCodigoProvinciaInen": "13",
+                            "intCodigoHabilitado": "1"
+    },
+    {
+                            "intCodigoCiudadInen": "151",
+                            "vchCodigoCiudadInen": "22",
+                            "vchNombreCiudadInen": "SAN VICENTE",
+                            "intCodigoProvinciaInen": "13",
+                            "intCodigoHabilitado": "1"
+    },
+    {
+                            "intCodigoCiudadInen": "152",
+                            "vchCodigoCiudadInen": "04",
+                            "vchNombreCiudadInen": "EL CARMEN",
+                            "intCodigoProvinciaInen": "13",
+                            "intCodigoHabilitado": "1"
+    },
+    {
+                            "intCodigoCiudadInen": "153",
+                            "vchCodigoCiudadInen": "05",
+                            "vchNombreCiudadInen": "FLAVIO ALFARO",
+                            "intCodigoProvinciaInen": "13",
+                            "intCodigoHabilitado": "1"
+    },
+    {
+                            "intCodigoCiudadInen": "154",
+                            "vchCodigoCiudadInen": "20",
+                            "vchNombreCiudadInen": "JAMA",
+                            "intCodigoProvinciaInen": "13",
+                            "intCodigoHabilitado": "1"
+    },
+    {
+                            "intCodigoCiudadInen": "155",
+                            "vchCodigoCiudadInen": "17",
+                            "vchNombreCiudadInen": "PEDERNALES",
+                            "intCodigoProvinciaInen": "13",
+                            "intCodigoHabilitado": "1"
+    },
+    {
+                            "intCodigoCiudadInen": "156",
+                            "vchCodigoCiudadInen": "02",
+                            "vchNombreCiudadInen": "GUALAQUIZA",
+                            "intCodigoProvinciaInen": "14",
+                            "intCodigoHabilitado": "1"
+    },
+    {
+                            "intCodigoCiudadInen": "157",
+                            "vchCodigoCiudadInen": "08",
+                            "vchNombreCiudadInen": "SAN JUAN BOSCO",
+                            "intCodigoProvinciaInen": "14",
+                            "intCodigoHabilitado": "1"
+    },
+    {
+                            "intCodigoCiudadInen": "158",
+                            "vchCodigoCiudadInen": "03",
+                            "vchNombreCiudadInen": "LIMON INDANZA",
+                            "intCodigoProvinciaInen": "14",
+                            "intCodigoHabilitado": "1"
+    },
+    {
+                            "intCodigoCiudadInen": "159",
+                            "vchCodigoCiudadInen": "12",
+                            "vchNombreCiudadInen": "TIWINTZA",
+                            "intCodigoProvinciaInen": "14",
+                            "intCodigoHabilitado": "1"
+    },
+    {
+                            "intCodigoCiudadInen": "160",
+                            "vchCodigoCiudadInen": "10",
+                            "vchNombreCiudadInen": "LOGROÑO",
+                            "intCodigoProvinciaInen": "14",
+                            "intCodigoHabilitado": "1"
+    },
+    {
+                            "intCodigoCiudadInen": "161",
+                            "vchCodigoCiudadInen": "05",
+                            "vchNombreCiudadInen": "SANTIAGO",
+                            "intCodigoProvinciaInen": "14",
+                            "intCodigoHabilitado": "1"
+    },
+    {
+                            "intCodigoCiudadInen": "162",
+                            "vchCodigoCiudadInen": "06",
+                            "vchNombreCiudadInen": "SUCUA",
+                            "intCodigoProvinciaInen": "14",
+                            "intCodigoHabilitado": "1"
+    },
+    {
+                            "intCodigoCiudadInen": "163",
+                            "vchCodigoCiudadInen": "01",
+                            "vchNombreCiudadInen": "MORONA",
+                            "intCodigoProvinciaInen": "14",
+                            "intCodigoHabilitado": "1"
+    },
+    {
+                            "intCodigoCiudadInen": "164",
+                            "vchCodigoCiudadInen": "09",
+                            "vchNombreCiudadInen": "TAISHA",
+                            "intCodigoProvinciaInen": "14",
+                            "intCodigoHabilitado": "1"
+    },
+    {
+                            "intCodigoCiudadInen": "165",
+                            "vchCodigoCiudadInen": "07",
+                            "vchNombreCiudadInen": "HUAMBOYA",
+                            "intCodigoProvinciaInen": "14",
+                            "intCodigoHabilitado": "1"
+    },
+    {
+                            "intCodigoCiudadInen": "166",
+                            "vchCodigoCiudadInen": "04",
+                            "vchNombreCiudadInen": "PALORA",
+                            "intCodigoProvinciaInen": "14",
+                            "intCodigoHabilitado": "1"
+    },
+    {
+                            "intCodigoCiudadInen": "167",
+                            "vchCodigoCiudadInen": "11",
+                            "vchNombreCiudadInen": "PABLO SEXTO",
+                            "intCodigoProvinciaInen": "14",
+                            "intCodigoHabilitado": "1"
+    },
+    {
+                            "intCodigoCiudadInen": "168",
+                            "vchCodigoCiudadInen": "09",
+                            "vchNombreCiudadInen": "CARLOS JULIO AROSEMENA TOLA",
+                            "intCodigoProvinciaInen": "15",
+                            "intCodigoHabilitado": "1"
+    },
+    {
+                            "intCodigoCiudadInen": "169",
+                            "vchCodigoCiudadInen": "01",
+                            "vchNombreCiudadInen": "TENA",
+                            "intCodigoProvinciaInen": "15",
+                            "intCodigoHabilitado": "1"
+    },
+    {
+                            "intCodigoCiudadInen": "170",
+                            "vchCodigoCiudadInen": "03",
+                            "vchNombreCiudadInen": "ARCHIDONA",
+                            "intCodigoProvinciaInen": "15",
+                            "intCodigoHabilitado": "1"
+    },
+    {
+                            "intCodigoCiudadInen": "171",
+                            "vchCodigoCiudadInen": "07",
+                            "vchNombreCiudadInen": "QUIJOS",
+                            "intCodigoProvinciaInen": "15",
+                            "intCodigoHabilitado": "1"
+    },
+    {
+                            "intCodigoCiudadInen": "172",
+                            "vchCodigoCiudadInen": "04",
+                            "vchNombreCiudadInen": "EL CHACO",
+                            "intCodigoProvinciaInen": "15",
+                            "intCodigoHabilitado": "1"
+    },
+    {
+                            "intCodigoCiudadInen": "173",
+                            "vchCodigoCiudadInen": "01",
+                            "vchNombreCiudadInen": "PASTAZA",
+                            "intCodigoProvinciaInen": "16",
+                            "intCodigoHabilitado": "1"
+    },
+    {
+                            "intCodigoCiudadInen": "174",
+                            "vchCodigoCiudadInen": "02",
+                            "vchNombreCiudadInen": "MERA",
+                            "intCodigoProvinciaInen": "16",
+                            "intCodigoHabilitado": "1"
+    },
+    {
+                            "intCodigoCiudadInen": "175",
+                            "vchCodigoCiudadInen": "03",
+                            "vchNombreCiudadInen": "SANTA CLARA",
+                            "intCodigoProvinciaInen": "16",
+                            "intCodigoHabilitado": "1"
+    },
+    {
+                            "intCodigoCiudadInen": "176",
+                            "vchCodigoCiudadInen": "04",
+                            "vchNombreCiudadInen": "ARAJUNO",
+                            "intCodigoProvinciaInen": "16",
+                            "intCodigoHabilitado": "1"
+    },
+    {
+                            "intCodigoCiudadInen": "177",
+                            "vchCodigoCiudadInen": "03",
+                            "vchNombreCiudadInen": "MEJIA",
+                            "intCodigoProvinciaInen": "17",
+                            "intCodigoHabilitado": "1"
+    },
+    {
+                            "intCodigoCiudadInen": "178",
+                            "vchCodigoCiudadInen": "05",
+                            "vchNombreCiudadInen": "RUMIÑAHUI",
+                            "intCodigoProvinciaInen": "17",
+                            "intCodigoHabilitado": "1"
+    },
+    {
+                            "intCodigoCiudadInen": "179",
+                            "vchCodigoCiudadInen": "01",
+                            "vchNombreCiudadInen": "DISTRITO METROPOLITANO DE QUITO",
+                            "intCodigoProvinciaInen": "17",
+                            "intCodigoHabilitado": "1"
+    },
+    {
+                            "intCodigoCiudadInen": "180",
+                            "vchCodigoCiudadInen": "02",
+                            "vchNombreCiudadInen": "CAYAMBE",
+                            "intCodigoProvinciaInen": "17",
+                            "intCodigoHabilitado": "1"
+    },
+    {
+                            "intCodigoCiudadInen": "181",
+                            "vchCodigoCiudadInen": "07",
+                            "vchNombreCiudadInen": "SAN MIGUEL DE LOS BANCOS",
+                            "intCodigoProvinciaInen": "17",
+                            "intCodigoHabilitado": "1"
+    },
+    {
+                            "intCodigoCiudadInen": "182",
+                            "vchCodigoCiudadInen": "04",
+                            "vchNombreCiudadInen": "PEDRO MONCAYO",
+                            "intCodigoProvinciaInen": "17",
+                            "intCodigoHabilitado": "1"
+    },
+    {
+                            "intCodigoCiudadInen": "183",
+                            "vchCodigoCiudadInen": "08",
+                            "vchNombreCiudadInen": "PEDRO VICENTE MALDONADO",
+                            "intCodigoProvinciaInen": "17",
+                            "intCodigoHabilitado": "1"
+    },
+    {
+                            "intCodigoCiudadInen": "184",
+                            "vchCodigoCiudadInen": "09",
+                            "vchNombreCiudadInen": "PUERTO QUITO",
+                            "intCodigoProvinciaInen": "17",
+                            "intCodigoHabilitado": "1"
+    },
+    {
+                            "intCodigoCiudadInen": "185",
+                            "vchCodigoCiudadInen": "04",
+                            "vchNombreCiudadInen": "MOCHA",
+                            "intCodigoProvinciaInen": "18",
+                            "intCodigoHabilitado": "1"
+    },
+    {
+                            "intCodigoCiudadInen": "186",
+                            "vchCodigoCiudadInen": "06",
+                            "vchNombreCiudadInen": "QUERO",
+                            "intCodigoProvinciaInen": "18",
+                            "intCodigoHabilitado": "1"
+    },
+    {
+                            "intCodigoCiudadInen": "187",
+                            "vchCodigoCiudadInen": "02",
+                            "vchNombreCiudadInen": "BAÑOS DE AGUA SANTA",
+                            "intCodigoProvinciaInen": "18",
+                            "intCodigoHabilitado": "1"
+    },
+    {
+                            "intCodigoCiudadInen": "188",
+                            "vchCodigoCiudadInen": "03",
+                            "vchNombreCiudadInen": "CEVALLOS",
+                            "intCodigoProvinciaInen": "18",
+                            "intCodigoHabilitado": "1"
+    },
+    {
+                            "intCodigoCiudadInen": "189",
+                            "vchCodigoCiudadInen": "09",
+                            "vchNombreCiudadInen": "TISALEO",
+                            "intCodigoProvinciaInen": "18",
+                            "intCodigoHabilitado": "1"
+    },
+    {
+                            "intCodigoCiudadInen": "190",
+                            "vchCodigoCiudadInen": "05",
+                            "vchNombreCiudadInen": "PATATE",
+                            "intCodigoProvinciaInen": "18",
+                            "intCodigoHabilitado": "1"
+    },
+    {
+                            "intCodigoCiudadInen": "191",
+                            "vchCodigoCiudadInen": "07",
+                            "vchNombreCiudadInen": "PELILEO",
+                            "intCodigoProvinciaInen": "18",
+                            "intCodigoHabilitado": "1"
+    },
+    {
+                            "intCodigoCiudadInen": "192",
+                            "vchCodigoCiudadInen": "01",
+                            "vchNombreCiudadInen": "AMBATO",
+                            "intCodigoProvinciaInen": "18",
+                            "intCodigoHabilitado": "1"
+    },
+    {
+                            "intCodigoCiudadInen": "193",
+                            "vchCodigoCiudadInen": "08",
+                            "vchNombreCiudadInen": "PILLARO",
+                            "intCodigoProvinciaInen": "18",
+                            "intCodigoHabilitado": "1"
+    },
+    {
+                            "intCodigoCiudadInen": "194",
+                            "vchCodigoCiudadInen": "02",
+                            "vchNombreCiudadInen": "CHINCHIPE",
+                            "intCodigoProvinciaInen": "19",
+                            "intCodigoHabilitado": "1"
+    },
+    {
+                            "intCodigoCiudadInen": "195",
+                            "vchCodigoCiudadInen": "08",
+                            "vchNombreCiudadInen": "PALANDA",
+                            "intCodigoProvinciaInen": "19",
+                            "intCodigoHabilitado": "1"
+    },
+    {
+                            "intCodigoCiudadInen": "196",
+                            "vchCodigoCiudadInen": "01",
+                            "vchNombreCiudadInen": "ZAMORA",
+                            "intCodigoProvinciaInen": "19",
+                            "intCodigoHabilitado": "1"
+    },
+    {
+                            "intCodigoCiudadInen": "197",
+                            "vchCodigoCiudadInen": "03",
+                            "vchNombreCiudadInen": "NANGARITZA",
+                            "intCodigoProvinciaInen": "19",
+                            "intCodigoHabilitado": "1"
+    },
+    {
+                            "intCodigoCiudadInen": "198",
+                            "vchCodigoCiudadInen": "09",
+                            "vchNombreCiudadInen": "PAQUISHA",
+                            "intCodigoProvinciaInen": "19",
+                            "intCodigoHabilitado": "1"
+    },
+    {
+                            "intCodigoCiudadInen": "199",
+                            "vchCodigoCiudadInen": "07",
+                            "vchNombreCiudadInen": "CENTINELA DEL CONDOR",
+                            "intCodigoProvinciaInen": "19",
+                            "intCodigoHabilitado": "1"
+    },
+    {
+                            "intCodigoCiudadInen": "200",
+                            "vchCodigoCiudadInen": "05",
+                            "vchNombreCiudadInen": "YANTZAZA",
+                            "intCodigoProvinciaInen": "19",
+                            "intCodigoHabilitado": "1"
+    },
+    {
+                            "intCodigoCiudadInen": "201",
+                            "vchCodigoCiudadInen": "06",
+                            "vchNombreCiudadInen": "EL PANGUI",
+                            "intCodigoProvinciaInen": "19",
+                            "intCodigoHabilitado": "1"
+    },
+    {
+                            "intCodigoCiudadInen": "202",
+                            "vchCodigoCiudadInen": "04",
+                            "vchNombreCiudadInen": "YACUAMBI",
+                            "intCodigoProvinciaInen": "19",
+                            "intCodigoHabilitado": "1"
+    },
+    {
+                            "intCodigoCiudadInen": "203",
+                            "vchCodigoCiudadInen": "01",
+                            "vchNombreCiudadInen": "SAN CRISTOBAL",
+                            "intCodigoProvinciaInen": "20",
+                            "intCodigoHabilitado": "1"
+    },
+    {
+                            "intCodigoCiudadInen": "204",
+                            "vchCodigoCiudadInen": "03",
+                            "vchNombreCiudadInen": "SANTA CRUZ",
+                            "intCodigoProvinciaInen": "20",
+                            "intCodigoHabilitado": "1"
+    },
+    {
+                            "intCodigoCiudadInen": "205",
+                            "vchCodigoCiudadInen": "02",
+                            "vchNombreCiudadInen": "ISABELA",
+                            "intCodigoProvinciaInen": "20",
+                            "intCodigoHabilitado": "1"
+    },
+    {
+                            "intCodigoCiudadInen": "206",
+                            "vchCodigoCiudadInen": "07",
+                            "vchNombreCiudadInen": "CUYABENO",
+                            "intCodigoProvinciaInen": "21",
+                            "intCodigoHabilitado": "1"
+    },
+    {
+                            "intCodigoCiudadInen": "207",
+                            "vchCodigoCiudadInen": "04",
+                            "vchNombreCiudadInen": "SHUSHUFINDI",
+                            "intCodigoProvinciaInen": "21",
+                            "intCodigoHabilitado": "1"
+    },
+    {
+                            "intCodigoCiudadInen": "208",
+                            "vchCodigoCiudadInen": "02",
+                            "vchNombreCiudadInen": "GONZALO PIZARRO",
+                            "intCodigoProvinciaInen": "21",
+                            "intCodigoHabilitado": "1"
+    },
+    {
+                            "intCodigoCiudadInen": "209",
+                            "vchCodigoCiudadInen": "01",
+                            "vchNombreCiudadInen": "LAGO AGRIO",
+                            "intCodigoProvinciaInen": "21",
+                            "intCodigoHabilitado": "1"
+    },
+    {
+                            "intCodigoCiudadInen": "210",
+                            "vchCodigoCiudadInen": "03",
+                            "vchNombreCiudadInen": "PUTUMAYO",
+                            "intCodigoProvinciaInen": "21",
+                            "intCodigoHabilitado": "1"
+    },
+    {
+                            "intCodigoCiudadInen": "211",
+                            "vchCodigoCiudadInen": "06",
+                            "vchNombreCiudadInen": "CASCALES",
+                            "intCodigoProvinciaInen": "21",
+                            "intCodigoHabilitado": "1"
+    },
+    {
+                            "intCodigoCiudadInen": "212",
+                            "vchCodigoCiudadInen": "05",
+                            "vchNombreCiudadInen": "SUCUMBIOS",
+                            "intCodigoProvinciaInen": "21",
+                            "intCodigoHabilitado": "1"
+    },
+    {
+                            "intCodigoCiudadInen": "213",
+                            "vchCodigoCiudadInen": "02",
+                            "vchNombreCiudadInen": "AGUARICO",
+                            "intCodigoProvinciaInen": "22",
+                            "intCodigoHabilitado": "1"
+    },
+    {
+                            "intCodigoCiudadInen": "214",
+                            "vchCodigoCiudadInen": "04",
+                            "vchNombreCiudadInen": "LORETO",
+                            "intCodigoProvinciaInen": "22",
+                            "intCodigoHabilitado": "1"
+    },
+    {
+                            "intCodigoCiudadInen": "215",
+                            "vchCodigoCiudadInen": "01",
+                            "vchNombreCiudadInen": "ORELLANA",
+                            "intCodigoProvinciaInen": "22",
+                            "intCodigoHabilitado": "1"
+    },
+    {
+                            "intCodigoCiudadInen": "216",
+                            "vchCodigoCiudadInen": "03",
+                            "vchNombreCiudadInen": "LA JOYA DE LOS SACHAS",
+                            "intCodigoProvinciaInen": "22",
+                            "intCodigoHabilitado": "1"
+    },
+    {
+                            "intCodigoCiudadInen": "217",
+                            "vchCodigoCiudadInen": "01",
+                            "vchNombreCiudadInen": "SANTO DOMINGO",
+                            "intCodigoProvinciaInen": "23",
+                            "intCodigoHabilitado": "1"
+    },
+    {
+                            "intCodigoCiudadInen": "218",
+                            "vchCodigoCiudadInen": "02",
+                            "vchNombreCiudadInen": "LA CONCORDIA",
+                            "intCodigoProvinciaInen": "23",
+                            "intCodigoHabilitado": "1"
+    },
+    {
+                            "intCodigoCiudadInen": "219",
+                            "vchCodigoCiudadInen": "02",
+                            "vchNombreCiudadInen": "LA LIBERTAD",
+                            "intCodigoProvinciaInen": "24",
+                            "intCodigoHabilitado": "1"
+    },
+    {
+                            "intCodigoCiudadInen": "220",
+                            "vchCodigoCiudadInen": "03",
+                            "vchNombreCiudadInen": "SALINAS",
+                            "intCodigoProvinciaInen": "24",
+                            "intCodigoHabilitado": "1"
+    },
+    {
+                            "intCodigoCiudadInen": "221",
+                            "vchCodigoCiudadInen": "01",
+                            "vchNombreCiudadInen": "SANTA ELENA",
+                            "intCodigoProvinciaInen": "24",
+                            "intCodigoHabilitado": "1"
+    },
+    {
+                            "intCodigoCiudadInen": "222",
+                            "vchCodigoCiudadInen": "07",
+                            "vchNombreCiudadInen": "ABDON CALDERON",
+                            "intCodigoProvinciaInen": "25",
+                            "intCodigoHabilitado": "1"
+    },
+    {
+                            "intCodigoCiudadInen": "223",
+                            "vchCodigoCiudadInen": "04",
+                            "vchNombreCiudadInen": "EL PIEDRERO",
+                            "intCodigoProvinciaInen": "25",
+                            "intCodigoHabilitado": "1"
+    },
+    {
+                            "intCodigoCiudadInen": "224",
+                            "vchCodigoCiudadInen": "06",
+                            "vchNombreCiudadInen": "JUVAL",
+                            "intCodigoProvinciaInen": "25",
+                            "intCodigoHabilitado": "1"
+    },
+    {
+                            "intCodigoCiudadInen": "225",
+                            "vchCodigoCiudadInen": "05",
+                            "vchNombreCiudadInen": "SANTA ROSA DE AGUA CLARA",
+                            "intCodigoProvinciaInen": "25",
+                            "intCodigoHabilitado": "1"
+    },
+    {
+                            "intCodigoCiudadInen": "226",
+                            "vchCodigoCiudadInen": "08",
+                            "vchNombreCiudadInen": "MATILDE ESTHER",
+                            "intCodigoProvinciaInen": "25",
+                            "intCodigoHabilitado": "1"
+    },
+    {
+                            "intCodigoCiudadInen": "227",
+                            "vchCodigoCiudadInen": "01",
+                            "vchNombreCiudadInen": "LAS GOLONDRINAS",
+                            "intCodigoProvinciaInen": "25",
+                            "intCodigoHabilitado": "1"
+    }
+]

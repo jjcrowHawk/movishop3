@@ -1,0 +1,177 @@
+[
+    {
+        "intCodigoProvinciaInen": "1",
+        "vchCodigoProvinciaInen": "01",
+        "vchNombreProvinciaInen": "AZUAY",
+        "intCodigoPais": "1",
+        "intCodigoHabilitado": "1"
+    },
+    {
+        "intCodigoProvinciaInen": "2",
+        "vchCodigoProvinciaInen": "02",
+        "vchNombreProvinciaInen": "BOLIVAR",
+        "intCodigoPais": "1",
+        "intCodigoHabilitado": "1"
+    },
+    {
+        "intCodigoProvinciaInen": "3",
+        "vchCodigoProvinciaInen": "03",
+        "vchNombreProvinciaInen": "CAÑAR",
+        "intCodigoPais": "1",
+        "intCodigoHabilitado": "1"
+    },
+    {
+        "intCodigoProvinciaInen": "4",
+        "vchCodigoProvinciaInen": "04",
+        "vchNombreProvinciaInen": "CARCHI",
+        "intCodigoPais": "1",
+        "intCodigoHabilitado": "1"
+    },
+    {
+        "intCodigoProvinciaInen": "5",
+        "vchCodigoProvinciaInen": "05",
+        "vchNombreProvinciaInen": "COTOPAXI",
+        "intCodigoPais": "1",
+        "intCodigoHabilitado": "1"
+    },
+    {
+        "intCodigoProvinciaInen": "6",
+        "vchCodigoProvinciaInen": "06",
+        "vchNombreProvinciaInen": "CHIMBORAZO",
+        "intCodigoPais": "1",
+        "intCodigoHabilitado": "1"
+    },
+    {
+        "intCodigoProvinciaInen": "7",
+        "vchCodigoProvinciaInen": "07",
+        "vchNombreProvinciaInen": "EL ORO",
+        "intCodigoPais": "1",
+        "intCodigoHabilitado": "1"
+    },
+    {
+        "intCodigoProvinciaInen": "8",
+        "vchCodigoProvinciaInen": "08",
+        "vchNombreProvinciaInen": "ESMERALDAS",
+        "intCodigoPais": "1",
+        "intCodigoHabilitado": "1"
+    },
+    {
+        "intCodigoProvinciaInen": "9",
+        "vchCodigoProvinciaInen": "09",
+        "vchNombreProvinciaInen": "GUAYAS",
+        "intCodigoPais": "1",
+        "intCodigoHabilitado": "1"
+    },
+    {
+        "intCodigoProvinciaInen": "10",
+        "vchCodigoProvinciaInen": "10",
+        "vchNombreProvinciaInen": "IMBABURA",
+        "intCodigoPais": "1",
+        "intCodigoHabilitado": "1"
+    },
+    {
+        "intCodigoProvinciaInen": "11",
+        "vchCodigoProvinciaInen": "11",
+        "vchNombreProvinciaInen": "LOJA",
+        "intCodigoPais": "1",
+        "intCodigoHabilitado": "1"
+    },
+    {
+        "intCodigoProvinciaInen": "12",
+        "vchCodigoProvinciaInen": "12",
+        "vchNombreProvinciaInen": "LOS RIOS",
+        "intCodigoPais": "1",
+        "intCodigoHabilitado": "1"
+    },
+    {
+        "intCodigoProvinciaInen": "13",
+        "vchCodigoProvinciaInen": "13",
+        "vchNombreProvinciaInen": "MANABI",
+        "intCodigoPais": "1",
+        "intCodigoHabilitado": "1"
+    },
+    {
+        "intCodigoProvinciaInen": "14",
+        "vchCodigoProvinciaInen": "14",
+        "vchNombreProvinciaInen": "MORONA SANTIAGO",
+        "intCodigoPais": "1",
+        "intCodigoHabilitado": "1"
+    },
+    {
+        "intCodigoProvinciaInen": "15",
+        "vchCodigoProvinciaInen": "15",
+        "vchNombreProvinciaInen": "NAPO",
+        "intCodigoPais": "1",
+        "intCodigoHabilitado": "1"
+    },
+    {
+        "intCodigoProvinciaInen": "16",
+        "vchCodigoProvinciaInen": "16",
+        "vchNombreProvinciaInen": "PASTAZA",
+        "intCodigoPais": "1",
+        "intCodigoHabilitado": "1"
+    },
+    {
+        "intCodigoProvinciaInen": "17",
+        "vchCodigoProvinciaInen": "17",
+        "vchNombreProvinciaInen": "PICHINCHA",
+        "intCodigoPais": "1",
+        "intCodigoHabilitado": "1"
+    },
+    {
+        "intCodigoProvinciaInen": "18",
+        "vchCodigoProvinciaInen": "18",
+        "vchNombreProvinciaInen": "TUNGURAHUA",
+        "intCodigoPais": "1",
+        "intCodigoHabilitado": "1"
+    },
+    {
+        "intCodigoProvinciaInen": "19",
+        "vchCodigoProvinciaInen": "19",
+        "vchNombreProvinciaInen": "ZAMORA CHINCHIPE",
+        "intCodigoPais": "1",
+        "intCodigoHabilitado": "1"
+    },
+    {
+        "intCodigoProvinciaInen": "20",
+        "vchCodigoProvinciaInen": "20",
+        "vchNombreProvinciaInen": "GALAPAGOS",
+        "intCodigoPais": "1",
+        "intCodigoHabilitado": "1"
+    },
+    {
+        "intCodigoProvinciaInen": "21",
+        "vchCodigoProvinciaInen": "21",
+        "vchNombreProvinciaInen": "SUCUMBIOS",
+        "intCodigoPais": "1",
+        "intCodigoHabilitado": "1"
+    },
+    {
+        "intCodigoProvinciaInen": "22",
+        "vchCodigoProvinciaInen": "22",
+        "vchNombreProvinciaInen": "ORELLANA",
+        "intCodigoPais": "1",
+        "intCodigoHabilitado": "1"
+    },
+    {
+        "intCodigoProvinciaInen": "23",
+        "vchCodigoProvinciaInen": "23",
+        "vchNombreProvinciaInen": "SANTO DOMINGO DE LOS TSACHILAS",
+        "intCodigoPais": "1",
+        "intCodigoHabilitado": "1"
+    },
+    {
+        "intCodigoProvinciaInen": "24",
+        "vchCodigoProvinciaInen": "24",
+        "vchNombreProvinciaInen": "SANTA ELENA",
+        "intCodigoPais": "1",
+        "intCodigoHabilitado": "1"
+    },
+    {
+        "intCodigoProvinciaInen": "25",
+        "vchCodigoProvinciaInen": "90",
+        "vchNombreProvinciaInen": "ZONAS EN ESTUDIO",
+        "intCodigoPais": "1",
+        "intCodigoHabilitado": "1"
+    }
+]

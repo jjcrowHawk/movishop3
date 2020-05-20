@@ -1,0 +1,81 @@
+<!--
+  Generated template for the AccountPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+  <ion-navbar>
+    <ion-title>{{translation['My Account']}}</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content>
+  <ion-list>
+    <ion-item-group>
+      <ion-item-divider color="light">
+        <ion-icon name="ios-person"></ion-icon>
+        {{translation['My Account']}}
+      </ion-item-divider>
+      <!--ion-item class="item item-divider item-icon-left">
+        <i class="icon ion-ios-person"></i>
+        {{translation['My Account']}}
+      </!--ion-item-->
+      <ion-item class="item-icon-left" *ngIf="!isAuthenticated" (click)="login()">
+        <ion-icon name="ios-unlock"></ion-icon>
+        {{translation['Sign in']}} / {{translation['Create an account']}}
+      </ion-item>
+      <ion-item class="item-icon-left" *ngIf="isAuthenticated" (click)="logout()">
+        <ion-icon name="ios-lock"></ion-icon>
+        {{translation['Sign out']}}
+      </ion-item>
+      <button ion-item class="item-icon-left" *ngIf="isAuthenticated" class="item" (click)="goToAccountInfo()">
+        <ion-icon name="ios-body"></ion-icon>
+        {{translation['My personal information']}}
+      </button>
+      <button ion-item class="item-icon-left" *ngIf="isAuthenticated && !address_tab" class="item"
+        (click)="goToAddresses()">
+        <ion-icon name="ios-home"></ion-icon>
+        {{translation['My addresses']}}
+      </button>
+      <button ion-item class="item-icon-left" *ngIf="isAuthenticated" class="item" (click)="goToOrderHistory()">
+        <ion-icon name="ios-pricetags"></ion-icon>
+        {{translation['Order history and details']}}
+      </button>
+      <button ion-item class="item-icon-left" *ngIf="isAuthenticated && display_saved_payments" class="item"
+        (click)="goToSavedPaymentMethods()">
+        <ion-icon name="card"></ion-icon>
+        {{translation['My Payment Methods']}}
+      </button>
+      <button ion-item class="item-icon-left" *ngIf="isAuthenticated && display_policy" class="item"
+        (click)="goToServiceTerms()">
+        <ion-icon name="information-circle"></ion-icon>
+        {{translation['Terms and Conditions']}}
+      </button>
+      <button ion-item class="item-icon-left" *ngIf="isAuthenticated && display_policy" class="item"
+        (click)="goToPrivacyPolicy()">
+        <ion-icon name="list-box"></ion-icon>
+        {{translation['Privacy Policy']}}
+      </button>
+      <!-- <ion-item *ngIf="isAuthenticated" class="item">
+              My Wishlist
+          </ion-item> 
+          <ion-item *ngIf="isAuthenticated" class="item">
+              My Alert
+          </ion-item> -->
+    </ion-item-group>
+    <ion-item-group *ngIf="configs_enabled">
+      <ion-item-divider>
+        <ion-icon name="ios-cog"></ion-icon>
+        {{translation['Settings']}}
+      </ion-item-divider>
+      <ion-item *ngIf="multilanguage_support" (click)="showChangeLanguage()">
+        <ion-icon name="ios-globe"></ion-icon>
+        {{translation['Change language']}}
+        <ion-note>
+          currentLanguages.name
+        </ion-note>
+      </ion-item>
+    </ion-item-group>
+  </ion-list>
+</ion-content>

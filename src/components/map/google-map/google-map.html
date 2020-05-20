@@ -1,0 +1,10 @@
+<!-- Generated template for the GoogleMapComponent component -->
+<div [id]="id" class="map">
+  <div *ngIf="loadingMap">
+    <!--ion-spinner icon="spiral"></!--ion-spinner-->
+    <h3>Cargando Mapa</h3>
+  </div>
+  <div text-center style="font-weight: bold;" *ngIf="showingMapPlaceholder">
+    <h3 text-center>Inicializando mapa</h3>
+  </div>
+</div>

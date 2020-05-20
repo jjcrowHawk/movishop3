@@ -1,3 +1,52 @@
 page-home {
 
+    .app-icon {
+        // background-image: url('../assets/imgs/logo.png');
+        background: rgba(255, 255, 255, 0) url('../assets/imgs/logo.png') round ;
+        height: 100px;
+        margin: 2% auto;
+        width: 100px;
+    }
+
+    .item-input {
+        background: transparent;
+        border-bottom: 1px solid #9F9F9F !important;
+        padding-left: 0;
+        margin-bottom: 1%;
+    }
+
+    .scroll-content {
+        width: 100%; /* Full width (cover the whole page) */
+        height: 100%; /* Full height (cover the whole page) */
+        background-color: rgba(0,0,0,0.65); /* Black background with opacity */
+        z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
+    }
+
+    .scroll-content > .button {
+        line-height: 26px;
+        margin-bottom: 8%;
+
+
+        
+        &:nth-last-of-type(2){
+            margin-bottom: 4%;
+        }
+
+        &:nth-last-of-type(1){
+            margin-bottom: 20%;
+        }
+    }
+    
+    .flex-margin ion-icon,
+    .flex-margin span {
+        margin-right: auto;
+    }
+
+    #login-button5{
+        text-decoration: underline;
+    }
+
+    #signup-button{
+        text-align: center;
+    }
 }

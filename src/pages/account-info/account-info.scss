@@ -1,0 +1,13 @@
+page-account-info {
+    .item{
+        padding-left: 0;
+
+        .input-wrapper{
+            padding-left: 10px;
+        }
+    }
+    
+    .text-input:not(:disabled){
+            background-color: rgba(241, 223, 188, 0.253);
+    }
+}
