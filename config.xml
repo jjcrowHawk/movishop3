@@ -23,7 +23,7 @@
     <preference name="GOOGLE_MAPS_IOS_API_KEY" value="AIzaSyBku2zCTTyXHIUmrMmqNsXqQG-_RmVdFXw" />
     <platform name="android">
         <edit-config file="app/src/main/AndroidManifest.xml" mode="merge" target="/manifest/application" xmlns:android="http://schemas.android.com/apk/res/android">
-            <application android:networkSecurityConfig="@xml/network_security_config" />
+            <application android:usesCleartextTraffic="true" />
         </edit-config>
         <resource-file src="resources/android/xml/network_security_config.xml" target="app/src/main/res/xml/network_security_config.xml" />
         <allow-intent href="market:*" />
@@ -102,9 +102,11 @@
     <plugin name="cordova-plugin-ionic-webview" spec="^4.0.0" />
     <plugin name="cordova-plugin-ionic-keyboard" spec="^2.0.5" />
     <plugin name="cordova-plugin-googlemaps" spec="^2.7.1" />
-    <engine name="browser" spec="~5.0.4" />
     <plugin name="cordova-plugin-nativegeocoder" spec="^3.4.1" />
     <plugin name="cordova-plugin-geolocation" spec="^4.0.2">
         <variable name="GEOLOCATION_USAGE_DESCRIPTION" value="La aplicación necesita conocer su ubicación para mejorar la localización de sus pedidos." />
     </plugin>
+    <engine name="browser" spec="5.0.4" />
+    <engine name="android" spec="~8.0.0" />
+    <engine name="ios" spec="~5.0.0" />
 </widget>
