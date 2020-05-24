@@ -1,0 +1,54 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button text=""></ion-back-button>
+    </ion-buttons>
+    <ion-title>addresses</ion-title>
+    <ion-buttons slot="end">
+      <ion-button (click)="addAddress()">
+        <ion-icon slot="icon-only" name="add"></ion-icon>
+      </ion-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <div *ngIf="isLoadingcustomerAddresses" style="margin-top: 20%; margin-left: 50%;">
+    <ion-spinner icon="spiral"></ion-spinner>
+  </div>
+  <div *ngIf="!customerAddresses && !isLoadingcustomerAddresses" style="text-align: center; padding: 30%">
+    <ion-icon name="ios-alert" style="font-size: 5em;"></ion-icon>
+    <br />
+    <h5>{{translation['No address found']}}</h5>
+    <hr />
+  </div>
+  <ion-card *ngFor="let address of customerAddresses; let index=index">
+    <ion-card-header class="item item-divider">
+      <h4>{{address.alias}}</h4>
+    </ion-card-header>
+    <ion-card-content class="item">
+      <p>{{address?.firstname}} {{address?.lastname}}</p>
+      <p>{{address?.company}}</p>
+      <p>{{address?.address1}}</p>
+      <p>{{address?.address2}}</p>
+      <p>{{address?.postcode}} {{address?.city}}</p>
+      <!--p>{{getStateByStateId(address.id_state).name}}, {{getCountryById(address.id_country).name}}</!--p-->
+      <p>{{address?.phone}}</p>
+      <p>{{address?.phone_mobile}}</p>
+    </ion-card-content>
+    <ion-row class="ion-justify-content-center">
+      <ion-col class="ion-text-center">
+        <ion-button fill="clear" class="tab-item" (click)="editAddress(index)">
+          <ion-icon slot="start" name="create-outline"></ion-icon>
+          {{translation['Edit']}}
+        </ion-button>
+      </ion-col>
+      <ion-col class="ion-text-center">
+        <ion-button fill="clear" class="tab-item" (click)="deleteAddress(index)">
+          <ion-icon slot="start" name="trash-outline"></ion-icon>
+          {{translation['Delete']}}
+        </ion-button>
+      </ion-col>
+    </ion-row>
+  </ion-card>
+</ion-content>

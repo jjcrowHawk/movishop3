@@ -1,0 +1,196 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button text=""></ion-back-button>
+    </ion-buttons>
+    <ion-title>Agregar/Editar Dirección</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <form [formGroup]="addressForm" (ngSubmit)="updateCustomer()">
+    <ng-template map-host></ng-template>
+    <!--div id="map_canvas">
+      <p text-center ion-text color="light"
+        style="background-color: rgba(0,0,0,0.75); margin:1.5% 5% 2% 5%; font-weight: bold;">Si la ubicación no es
+        correcta,
+        arrastre el
+        mapa a la ubicación deseada</p>
+    </!--div-->
+    <!--FIRST NAME-->
+    <ion-item lines="full" *ngIf="addressForm.controls['firstname']" class="item item-ion-input item-stacked-label"
+      [ngClass]="{ 'has-errors' : addressForm.controls.firstname.touched && addressForm.controls.firstname.invalid, 'no-errors' : addressForm.controls.firstname.touched && addressForm.controls.firstname.valid}">
+      <ion-label position="stacked">{{translation['First name']}} {{required_fields['firstname'] ? "*" : "" }}
+      </ion-label>
+      <ion-input type="text" name="firstname" placeholder="{{translation['First name']}}"
+        [formControl]="addressForm.controls['firstname']"> </ion-input>
+    </ion-item>
+    <div *ngIf="addressForm.controls.firstname && !addressForm.controls.firstname.valid &&
+                    addressForm.controls.firstname.dirty && 
+                    addressForm.controls.firstname.hasError('required')" class="validator-error">
+      No puede dejar vacío este campo
+    </div>
+    <div *ngIf="addressForm.controls.firstname && !addressForm.controls.firstname.valid &&
+              addressForm.controls.firstname.dirty && 
+              addressForm.controls.firstname.hasError('pattern')" class="validator-error">
+      Sólo debe ingresar letras en este campo.
+    </div>
+
+    <!--LAST NAME-->
+    <ion-item lines="full" *ngIf="addressForm.controls['lastname']" class="item item-ion-input item-stacked-label"
+      [ngClass]="{ 'has-errors' : addressForm.controls.lastname.touched && addressForm.controls.lastname.invalid, 'no-errors' : addressForm.controls.lastname.touched && addressForm.controls.lastname.valid}">
+      <ion-label position="stacked">{{translation['Last name']}} {{required_fields['firstname'] ? "*" : "" }}
+      </ion-label>
+      <ion-input type="text" name="lastname" placeholder="{{translation['Last name']}}"
+        [formControl]="addressForm.controls['lastname']"></ion-input>
+    </ion-item>
+    <div *ngIf="addressForm.controls.lastname && !addressForm.controls.lastname.valid &&
+                          addressForm.controls.lastname.dirty && 
+                          addressForm.controls.lastname.hasError('required')" class="validator-error">
+      No puede dejar vacío este campo
+    </div>
+    <div *ngIf="addressForm.controls.lastname && !addressForm.controls.lastname.valid &&
+                    addressForm.controls.lastname.dirty && 
+                    addressForm.controls.lastname.hasError('pattern')" class="validator-error">
+      Sólo debe ingresar letras en este campo.
+    </div>
+
+    <!--Company-->
+    <ion-item lines="full" *ngIf="addressForm.controls['company']" class="item item-ion-input item-stacked-ion-item">
+      <ion-label position="stacked">{{translation['Company']}} {{required_fields['firstname'] ? "*" : "" }}</ion-label>
+      <ion-input type="text" name="company" placeholder="{{translation['Company']}}"
+        [formControl]="addressForm.controls['company']"></ion-input>
+    </ion-item>
+
+    <!--Address1-->
+    <ion-item lines="full" *ngIf="addressForm.controls['address1']" class="item item-ion-input item-stacked-label"
+      [ngClass]="{ 'has-errors' : addressForm.controls.address1.touched && addressForm.controls.address1.invalid, 'no-errors' : addressForm.controls.address1.touched && addressForm.controls.address1.valid}">
+      <ion-label position="stacked">{{translation['Address']}} {{required_fields['address1'] ? "*" : "" }}</ion-label>
+      <ion-input type="text" name="address1" placeholder="{{translation['Address']}}"
+        [formControl]="addressForm.controls['address1']"></ion-input>
+    </ion-item>
+    <div *ngIf="addressForm.controls.address1 && !addressForm.controls.address1.valid &&
+                          addressForm.controls.address1.dirty && 
+                          addressForm.controls.address1.hasError('required')" class="validator-error">
+      No puede dejar vacío este campo
+    </div>
+
+    <!--Address2-->
+    <ion-item lines="full" *ngIf="addressForm.controls['address2']" class="item item-ion-input item-stacked-label"
+      [ngClass]="{ 'has-errors' : addressForm.controls.address2.touched && addressForm.controls.address2.invalid, 'no-errors' : addressForm.controls.address2.touched && addressForm.controls.address2valid}">
+      <ion-label position="stacked">{{translation['Address (Line 2)']}} {{required_fields['address2'] ? "*" : "" }}
+      </ion-label>
+      <ion-input type="text" name="address2" placeholder="{{translation['Address (Line 2)']}}"
+        [formControl]="addressForm.controls['address2']"></ion-input>
+    </ion-item>
+    <!--ZIP-->
+    <ion-item lines="full" *ngIf="addressForm.controls['postcode']" class="item item-ion-input item-stacked-label"
+      [ngClass]="{ 'has-errors' : addressForm.controls.postcode.touched && addressForm.controls.postcode.invalid, 'no-errors' : addressForm.controls.postcode.touched && addressForm.controls.postcode.valid}">
+      <ion-label position="stacked">{{translation['Zip/Postal Code']}} {{required_fields['postcode'] ? "*" : "" }}
+      </ion-label>
+      <ion-input type="text" name="postcode" placeholder="{{translation['Zip/Postal Code']}}"
+        [formControl]="addressForm.controls['postcode']"></ion-input>
+    </ion-item>
+    <div *ngIf="addressForm.controls.postcode && !addressForm.controls.postcode.valid &&
+                          addressForm.controls.postcode.dirty && 
+                          addressForm.controls.postcode.hasError('pattern')" class="validator-error">
+      Este campo sólo acepta números y letras
+    </div>
+    <!--on-item class="item item-ion-input item-stacked-label"
+        ng-class="{ 'has-errors' : submitAddressForm.city.$touched && submitAddressForm.city.$invalid, 'no-errors' : submitAddressForm.city.$touched && submitAddressForm.city.$valid}">
+        <ion-label stacked>{{translation['City']}}</ion-label>
+        <ion-input type="text" name="city" placeholder="{{translation['City']}}" ng-model="addressData.city"
+          ng-pattern="/^[a-zA-Z\s]*$/" ng-maxlength="64" required></ion-input>
+      </!--on-item-->
+    <!--SELECT STATES-->
+    <ion-item lines="full" *ngIf="addressForm.controls['state']" class="item item-ion-input item-select">
+      <ion-label position="stacked">{{translation['State']}} {{required_fields['state'] ? "*" : "" }}</ion-label>
+      <ion-select name="id_state" [formControl]="addressForm.controls['state']" (ionChange)="stateChanged($event)">
+        <ion-select-option value="">{{translation['Select State']}}</ion-select-option>
+        <ion-select-option *ngFor="let state of states" [value]="state.intCodigoProvinciaInen">
+          {{state.vchNombreProvinciaInen}}
+        </ion-select-option>
+      </ion-select>
+    </ion-item>
+    <div *ngIf="addressForm.controls.state && !addressForm.controls.state.valid &&
+                                    addressForm.controls.state.dirty && 
+                                    addressForm.controls.state.hasError('required')" class="validator-error">
+      No puede dejar vacío este campo
+    </div>
+
+    <!--SELECT CITIES-->
+    <ion-item lines="full" class="item item-ion-input item-select"
+      *ngIf="addressForm.controls['city'] && addressForm.controls.state.value">
+      <ion-label position="stacked">{{translation['City']}} {{required_fields['city'] ? "*" : "" }}</ion-label>
+      <ion-select name="id_city" [formControl]="addressForm.controls['city']">
+        <ion-select-option value="">{{translation['Select City']}}</ion-select-option>
+        <ion-select-option *ngFor="let city of cities" [value]="city.intCodigoCiudadInen">{{city.vchNombreCiudadInen}}
+        </ion-select-option>
+      </ion-select>
+    </ion-item>
+    <div *ngIf="addressForm.controls.city && !addressForm.controls.city.valid &&
+                                        addressForm.controls.city.dirty && 
+                                        addressForm.controls.city.hasError('required')" class="validator-error">
+      No puede dejar vacío este campo
+    </div>
+
+    <!--PHONE-->
+    <ion-item lines="full" *ngIf="addressForm.controls['phone']" class="item item-ion-input item-stacked-label"
+      [ngClass]="{ 'has-errors' : addressForm.controls.phone.touched && addressForm.controls.phone.invalid, 'no-errors' : addressForm.controls.phone.touched && addressForm.controls.phone.valid}">
+      <ion-label position="stacked">{{translation['Home phone']}} {{required_fields['phone'] ? "*" : "" }}</ion-label>
+      <ion-input type="tel" name="phone" placeholder="{{translation['Home phone']}}"
+        [formControl]="addressForm.controls['phone']"></ion-input>
+    </ion-item>
+    <div *ngIf="addressForm.controls.phone && !addressForm.controls.phone.valid &&
+                          addressForm.controls.phone.dirty && 
+                          addressForm.controls.phone.hasError('pattern')" class="validator-error">
+      El formato ingresado es incorrecto
+    </div>
+
+    <!--CELLPHONE-->
+    <ion-item lines="full" *ngIf="addressForm.controls['phone_mobile']" class="item item-ion-input item-stacked-label"
+      [ngClass]="{ 'has-errors' : addressForm.controls.phone_mobile.touched && addressForm.controls.phone_mobile.invalid, 'no-errors' : addressForm.controls.phone_mobile.touched && addressForm.controls.phone_mobile.valid}">
+      <ion-label position="stacked">{{translation['Mobile phone']}} {{required_fields['phone_mobile'] ? "*" : "" }}
+      </ion-label>
+      <ion-input type="tel" name="phone_mobile" placeholder="{{translation['Mobile phone']}}"
+        [formControl]="addressForm.controls['phone_mobile']"></ion-input>
+    </ion-item>
+    <div *ngIf="addressForm.controls.phone_mobile && !addressForm.controls.phone_mobile.valid &&
+                                addressForm.controls.phone_mobile.dirty && 
+                                addressForm.controls.phone_mobile.hasError('required')" class="validator-error">
+      No puede dejar vacío este campo
+    </div>
+    <div *ngIf="addressForm.controls.phone_mobile && !addressForm.controls.phone_mobile.valid &&
+                          addressForm.controls.phone_mobile.dirty && 
+                          addressForm.controls.phone_mobile.hasError('pattern')" class="validator-error">
+      El formato ingresado es incorrecto
+    </div>
+
+    <!--OTHER-->
+    <ion-item lines="full" *ngIf="addressForm.controls['other']" class="item item-ion-input item-stacked-label">
+      <ion-label position="stacked">{{translation['Additional information']}} {{required_fields['other'] ? "*" : "" }}
+      </ion-label>
+      <ion-input type="text" name="other" placeholder="{{translation['Additional information hint']}}"
+        [formControl]="addressForm.controls['other']"></ion-input>
+    </ion-item>
+    <!--ALIAS-->
+    <ion-item lines="full" *ngIf="addressForm.controls['alias']" class="item item-ion-input item-stacked-label"
+      [ngClass]="{ 'has-errors' : addressForm.controls.alias.touched && addressForm.controls.alias.invalid, 'no-errors' : addressForm.controls.alias.touched && addressForm.controls.alias.valid}">
+      <ion-label position="stacked">{{translation['Please assign an address title for future reference.']}}
+        {{required_fields['alias'] ? "*" : "" }}
+      </ion-label>
+      <ion-input type="text" name="alias"
+        placeholder="{{translation['Please assign an address title for future reference. hint']}}"
+        [formControl]="addressForm.controls['alias']"></ion-input>
+    </ion-item>
+    <div *ngIf="addressForm.controls.alias && !addressForm.controls.alias.valid &&
+                                addressForm.controls.alias.dirty && 
+                                addressForm.controls.alias.hasError('required')" class="validator-error">
+      No puede dejar vacío este campo
+    </div>
+    <div class="submit">
+      <ion-button class="button button-block button-positive" [disabled]="!addressForm.valid" type="submit">
+        {{translation['Save']}}</ion-button>
+    </div>
+  </form>
+</ion-content>

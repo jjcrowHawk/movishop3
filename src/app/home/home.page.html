@@ -1,0 +1,41 @@
+<ion-content class="ion-padding">
+
+  <div class="overlay">
+    <ion-list lines="none" id="login-list2">
+
+      <div class="app-icon"></div>
+
+      <ion-item>
+        <ion-label position="floating" style="color: #9F9F9F;">Usuario</ion-label>
+        <ion-input value="" [(ngModel)]="this.user.email" style="color: white;" type="email" placeholder=""
+          name="email">
+        </ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-label position="floating" style="color: #9F9F9F;">Contraseña</ion-label>
+        <ion-input [(ngModel)]="this.user.password" style="color: white;" type="password" placeholder=""
+          name="password">
+        </ion-input>
+      </ion-item>
+
+    </ion-list>
+
+    <div style="height: 30px;" class="spacer"></div>
+    <ion-button expand="block" (click)="loginEmail(user)" color="danger" id="signup-ion-button3" class="flex-margin">
+      <ion-icon slot="start" name="log-in-outline"></ion-icon>
+      INICIAR SESION
+    </ion-button>
+    <ion-button expand="block" (click)="loginFb()" id="signup-ion-button4" class="flex-margin">
+      <ion-icon slot="start" name="logo-facebook"></ion-icon>
+      INICIAR SESION CON FACEBOOK
+    </ion-button>
+
+    <ion-button expand="block" fill="clear" color="light" id="login-button5" ui-sref="tabsController.forgotPassword">
+      ¿Olvidó su contraseña?
+    </ion-button>
+
+    <div id="signup-ion-button">
+      <ion-button expand="block" fill="outline" color="light">Registrarse</ion-button>
+    </div>
+  </div>
+</ion-content>

@@ -1,0 +1,127 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button text=""></ion-back-button>
+    </ion-buttons>
+    <ion-title>order-history</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <div>
+    <ion-segment [(ngModel)]="orderType">
+      <ion-segment-button value="inprogress">
+        <ion-label>{{translation['In Progress Orders']}}</ion-label>
+      </ion-segment-button>
+      <ion-segment-button value="past">
+        <ion-label> {{translation['Past Orders']}}</ion-label>
+      </ion-segment-button>
+    </ion-segment>
+  </div>
+
+  <div [ngSwitch]="orderType">
+    <div *ngSwitchCase="'inprogress'">
+      <div *ngIf="isLoadingOrderHistoryList" style="margin-top: 20%; margin-left: 50%;">
+        <ion-spinner icon="spiral"></ion-spinner>
+      </div>
+      <div *ngIf="!isLoadingOrderHistoryList && (customerOrders | ordersFilterExcludeState :['5','6','7']).length === 0"
+        style="text-align: center; padding: 30%">
+        <ion-icon name="ios-alert" style="font-size: 5em;"></ion-icon>
+        <br />
+        <h5>{{translation['No address found']}}</h5>
+        <hr />
+      </div>
+      <ion-card *ngFor="let order of(customerOrders | ordersFilterExcludeState :['5','6','7']); let index=index">
+        <ion-card-content class="item" (click)="goToOrderDescription(order.id, true)">
+          <ion-row justify-content-start>
+            <ion-col align-self-center size="3">
+              <img src="assets/imgs/bag-logo.png" alt="shop bag logo" style="width:50px; height:50px;">
+            </ion-col>
+            <ion-col>
+              <ion-row justify-content-start>
+                <ion-col>
+                  <h2>{{order.reference}}</h2>
+                </ion-col>
+                <ion-col class="price-col" align-self-center size="6" text-end>
+                  <h2>$ {{order.total_paid_tax_incl | number:'1.2-2'}}</h2>
+                </ion-col>
+              </ion-row>
+              <ion-row justify-content-start>
+                <ion-col align-self-center size="6">
+                  <p>Orden #{{order.id}}</p>
+                </ion-col>
+                <ion-col align-self-center size="6" text-end class="state-col">
+                  <p *ngIf="!statesCache[order.current_state]; else elseState"
+                    [ngStyle]="{'color': statesCache[order.current_state] && statesCache[order.current_state].color || ''}">
+                    {{(order.current_state | ordersStateFetch:statesCache)}}</p>
+                  <ng-template #elseState>
+                    <p
+                      [ngStyle]="{'color': statesCache[order.current_state] && statesCache[order.current_state].color || ''}">
+                      {{statesCache[order.current_state].name}}</p>
+                  </ng-template>
+                </ion-col>
+              </ion-row>
+            </ion-col>
+          </ion-row>
+          <ion-row>
+            <p>{{order.date_add | date:'dd-MM-yyyy'}}</p>
+            <p style="margin: 0% 5% 0% 5%;"> | </p>
+            <p>{{order.date_add | date:'hh:mm a'}}</p>
+          </ion-row>
+        </ion-card-content>
+      </ion-card>
+    </div>
+    <div *ngSwitchCase="'past'">
+      <div *ngIf="isLoadingOrderHistoryList" style="margin-top: 20%; margin-left: 50%;">
+        <ion-spinner icon="spiral"></ion-spinner>
+      </div>
+      <div *ngIf="!isLoadingOrderHistoryList && (customerOrders | ordersFilterState :['5','6','7']).length === 0"
+        style="text-align: center; padding: 30%">
+        <ion-icon name="ios-alert" style="font-size: 5em;"></ion-icon>
+        <br />
+        <h5>{{translation['No address found']}}</h5>
+        <hr />
+      </div>
+      <ion-card *ngFor="let order of(customerOrders | ordersFilterState :['5','6','7'])"
+        (click)="goToOrderDescription(order.id, false)">
+        <ion-card-content class="item">
+          <ion-row justify-content-start>
+            <ion-col align-self-center size="3">
+              <img src="assets/imgs/bag-logo.png" alt="shop bag logo" style="width:50px; height:50px;">
+            </ion-col>
+            <ion-col>
+              <ion-row justify-content-start>
+                <ion-col>
+                  <h2>{{order.reference}}</h2>
+                </ion-col>
+                <ion-col class="price-col" align-self-center size="6" text-end>
+                  <h2>$ {{order.total_paid_tax_incl | number:'1.2-2'}}</h2>
+                </ion-col>
+              </ion-row>
+              <ion-row justify-content-start>
+                <ion-col align-self-center size="6">
+                  <p>Orden #{{order.id}}</p>
+                </ion-col>
+                <ion-col align-self-center size="6" text-end class="state-col">
+                  <p *ngIf="!statesCache[order.current_state]; else elseState"
+                    [ngStyle]="{'color': statesCache[order.current_state] && statesCache[order.current_state].color || ''}">
+                    {{(order.current_state | ordersStateFetch:statesCache)}}</p>
+                  <ng-template #elseState>
+                    <p
+                      [ngStyle]="{'color': statesCache[order.current_state] && statesCache[order.current_state].color || ''}">
+                      {{statesCache[order.current_state].name}}</p>
+                  </ng-template>
+                </ion-col>
+              </ion-row>
+            </ion-col>
+          </ion-row>
+          <ion-row>
+            <p>{{order.date_add | date:'dd-MM-yyyy'}}</p>
+            <p style="margin: 0% 5% 0% 5%;"> | </p>
+            <p>{{order.date_add | date:'hh:mm a'}}</p>
+          </ion-row>
+        </ion-card-content>
+      </ion-card>
+    </div>
+  </div>
+</ion-content>

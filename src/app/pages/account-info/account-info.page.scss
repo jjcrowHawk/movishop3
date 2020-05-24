@@ -1,0 +1,16 @@
+.item{
+        padding-left: 0;
+
+        .input-wrapper{
+            padding-left: 10px;
+        }
+}
+
+ion-icon{
+    margin-left: 2%;
+    margin-right: 3%;
+}
+    
+ion-input:not([disabled]){
+        border-bottom: 1px solid #000000;
+}

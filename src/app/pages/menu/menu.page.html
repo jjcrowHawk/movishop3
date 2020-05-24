@@ -1,0 +1,40 @@
+<ion-tabs class="tabs-icon-top tabs-color-active-positive">
+
+  <ion-tab-bar slot="bottom">
+
+    <!-- Dashboard Tab -->
+    <ion-tab-button tab="search">
+      <ion-icon name="search"></ion-icon>
+      <ion-label>{{translation['Search']}}</ion-label>
+    </ion-tab-button>
+    <!--ion-tab [root]="searchRoot" tabUrlPath="search" tabTitle="{{translation['Search']}}" tabIcon="ios-search">
+
+    </!--ion-tab-->
+
+
+    <!-- Categories Tab -->
+    <ion-tab-button tab="categories">
+      <ion-icon name="book"></ion-icon>
+      <ion-label>{{translation['Categories']}}</ion-label>
+    </ion-tab-button>
+    <!--ion-tab [root]="categoriesRoot" tabUrlPath="categories" tabTitle="{{translation['Categories']}}"
+      tabIcon="ios-book">
+    </!--ion-tab-->
+
+    <!-- Cart Tab -->
+    <ion-tab-button tab="cart">
+      <ion-icon name="cart"></ion-icon>
+      <ion-label>{{translation['Cart']}}</ion-label>
+    </ion-tab-button>
+    <!--ion-tab [root]="cartRoot" tabUrlPath="cart" tabTitle="{{translation['Cart']}}" tabIcon="ios-cart">
+    </!--ion-tab-->
+
+    <!-- Account Tab -->
+    <ion-tab-button tab="account">
+      <ion-icon name="cog"></ion-icon>
+      <ion-label>{{translation['Account']}}</ion-label>
+    </ion-tab-button>
+    <!--ion-tab [root]="accountRoot" tabUrlPath="my-account" tabTitle="{{translation['Account']}}" tabIcon="ios-cog">
+    </!--ion-tab-->
+  </ion-tab-bar>
+</ion-tabs>

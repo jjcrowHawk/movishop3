@@ -1,0 +1,185 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>order-status</ion-title>
+    <ion-buttons slot="end">
+      <ion-button (click)="dismiss()">
+        <ion-icon slot="icon-only" name="close" md="md-close" *ngIf="platform.is('android')"></ion-icon>
+        <ion-text color="primary" *ngIf="platform.is('ios')">Cerrar</ion-text>
+      </ion-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <!--div class="ion-text-center">
+    <h5>Orden #{{order?.id}}</h5>
+  </!--div-->
+  <div *ngIf="orderInProgress">
+  </div>
+  <div class="order_section_title">
+    Detalles de Entrega
+  </div>
+  <div style="margin: 0; padding: 0;">
+    <ng-template map-snapshot-host></ng-template>
+  </div>
+  <div>
+    <ion-row>
+      <ion-col>
+        Nombre:
+      </ion-col>
+      <ion-col>
+        {{orderAddressDelivery?.firstname + " " + orderAddressDelivery?.lastname }}
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col>
+        Dirección:
+      </ion-col>
+      <ion-col>
+        {{orderAddressDelivery?.address1 + orderAddressDelivery?.address2}}
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col>
+        Referencia:
+      </ion-col>
+      <ion-col>
+        {{orderAddressDelivery?.other}}
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col>
+        Telefono:
+      </ion-col>
+      <ion-col>
+        {{orderAddressDelivery?.phone_mobile}}
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col>
+        Fecha de envío:
+      </ion-col>
+      <ion-col>
+        {{order.delivery_date}}
+      </ion-col>
+    </ion-row>
+  </div>
+  <div class="order_section_title">
+    Factura
+  </div>
+  <div>
+    <ion-row>
+      <ion-col>
+        No. de Factura:
+      </ion-col>
+      <ion-col>
+        {{order.invoice_number}}
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col>
+        Nombres:
+      </ion-col>
+      <ion-col>
+        {{orderInvoiceAddress?.firstname +  " " + orderInvoiceAddress?.lastname}}
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col>
+        Cédula/RUC:
+      </ion-col>
+      <ion-col>
+        {{orderInvoiceAddress?.dni}}
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col>
+        Telefono:
+      </ion-col>
+      <ion-col>
+        {{orderInvoiceAddress?.phone_mobile}}
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col>
+        Email:
+      </ion-col>
+      <ion-col>
+        {{orderInvoiceAddress?.email}}
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col>
+        Dirección:
+      </ion-col>
+      <ion-col>
+        {{orderInvoiceAddress?.address1 + " " +orderInvoiceAddress?.address2}}
+      </ion-col>
+    </ion-row>
+  </div>
+  <div class="order_section_title">
+    Detalles de la orden
+  </div>
+  <div>
+    <ion-row class="order_detail_head">
+      <ion-col size="6">
+        Producto
+      </ion-col>
+      <ion-col class="ion-text-center" size="3">
+        Cantidad
+      </ion-col>
+      <ion-col class="ion-text-center" size="3">
+        Precio
+      </ion-col>
+    </ion-row>
+    <ion-row *ngFor="let item of order.associations.order_rows" class="item_row">
+      <ion-col size="6">
+        {{item.product_name}}
+      </ion-col>
+      <ion-col class="ion-text-center" size="3">
+        {{item.product_quantity}}
+      </ion-col>
+      <ion-col class="ion-text-center" size="3">
+        $ {{item.product_price | number:'1.2-2'}}
+      </ion-col>
+    </ion-row>
+  </div>
+  <div class="order_section_title">
+    Costo
+  </div>
+  <div>
+    <ion-row>
+      <ion-col>
+        Subtotal:
+      </ion-col>
+      <ion-col class="ion-text-center">
+        $ {{order.total_products | number:'1.2-2'}}
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col>
+        IVA:
+      </ion-col>
+      <ion-col class="ion-text-center">
+        $ {{ getTax() | number:'1.2-2'}}
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col>
+        Descuento:
+      </ion-col>
+      <ion-col class="ion-text-center">
+        $ {{order.total_discounts | number:'1.2-2'}}
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col>
+        Total A pagar:
+      </ion-col>
+      <ion-col class="ion-text-center">
+        $ {{order.total_paid_tax_incl | number:'1.2-2'}}
+      </ion-col>
+    </ion-row>
+  </div>
+
+</ion-content>

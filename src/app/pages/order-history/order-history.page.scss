@@ -1,0 +1,29 @@
+.price-col{
+    
+    h1,h2,h3,h4,h5,p{
+        font-weight: bold;
+    }
+}
+
+.state-col{
+    font-weight: bold;
+
+    h1,h2,h3,h4,h5,p{
+        font-weight: bold;
+    }
+}
+
+ion-col{
+        padding: 0;
+    }
+ion-row{
+    margin-top: 7%
+}
+
+ion-card ion-row:first-of-type{
+    margin-top:0%;
+}
+
+ion-card-content{
+    padding: 13px 10px 13px  10px !important;
+}

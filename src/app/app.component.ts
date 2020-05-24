@@ -1,31 +1,39 @@
-import { AuthProvider } from './../providers/api/login/login.service';
 import { Component } from '@angular/core';
-import { Platform } from 'ionic-angular';
-import { StatusBar } from '@ionic-native/status-bar';
-import { SplashScreen } from '@ionic-native/splash-screen';
+
+import { Platform } from '@ionic/angular';
+import { SplashScreen } from '@ionic-native/splash-screen/ngx';
+import { StatusBar } from '@ionic-native/status-bar/ngx';
+import { LoginService } from './api/login/login.service';
+import { Router } from '@angular/router';
 
 @Component({
-  templateUrl: 'app.html'
+  selector: 'app-root',
+  templateUrl: 'app.component.html',
+  styleUrls: ['app.component.scss']
 })
-export class MyApp {
-  rootPage: any = 'login';
+export class AppComponent {
+  constructor(
+    private router: Router,
+    private platform: Platform,
+    private splashScreen: SplashScreen,
+    private statusBar: StatusBar,
+    private authService: LoginService
+  ) {
+    this.initializeApp();
+  }
 
-  constructor(platform: Platform, statusBar: StatusBar, splashScreen: SplashScreen, private authService: AuthProvider) {
+  initializeApp () {
+    this.platform.ready().then(() => {
+      this.statusBar.styleDefault();
+      this.splashScreen.hide();
 
-    if (this.authService.checkAuthenticated()) {
-      this.authService.loadUserCredentials();
-      this.rootPage = 'app';
-    }
-    else {
-      this.rootPage = 'login';
-    }
-
-    platform.ready().then(() => {
-      // Okay, so the platform is ready and our plugins are available.
-      // Here you can do any higher level native things you might need.
-      statusBar.styleDefault();
-      splashScreen.hide();
+      if (this.authService.checkAuthenticated()) {
+        this.authService.loadUserCredentials();
+        this.router.navigate(['/menu']);
+      }
+      else {
+        this.router.navigate['/home'];
+      }
     });
   }
 }
-

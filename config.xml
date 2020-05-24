@@ -102,11 +102,7 @@
     <plugin name="cordova-plugin-ionic-webview" spec="^4.0.0" />
     <plugin name="cordova-plugin-ionic-keyboard" spec="^2.0.5" />
     <plugin name="cordova-plugin-googlemaps" spec="^2.7.1" />
+    <plugin name="cordova-plugin-geolocation" spec="^4.0.2" />
     <plugin name="cordova-plugin-nativegeocoder" spec="^3.4.1" />
-    <plugin name="cordova-plugin-geolocation" spec="^4.0.2">
-        <variable name="GEOLOCATION_USAGE_DESCRIPTION" value="La aplicación necesita conocer su ubicación para mejorar la localización de sus pedidos." />
-    </plugin>
-    <engine name="browser" spec="5.0.4" />
-    <engine name="android" spec="~8.0.0" />
-    <engine name="ios" spec="~5.0.0" />
+    <engine name="browser" spec="~5.0.4" />
 </widget>
